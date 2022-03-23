@@ -31,6 +31,8 @@ Str(" My  favrouts colores red blue green")->replaceEach("red|blue|green",colors
 ```php
 class Str {
 public function  __construct($string)
+length?int
+is?string
 }
 
 
