@@ -37,8 +37,10 @@ class Str {
 public function  __construct($string)
 length?int
 is?string
-public function call_back($string)?new Str()
-public function forEach($call,arg...)? void
+public function call_back($string)? this
+public function forEach($call?function,arg...?mix)? void
+public function filter($call?function,arg...?mix)? this
+public function cslashes($chr?string)? this
 }
 
 
