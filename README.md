@@ -37,6 +37,7 @@ class Str {
 public function  __construct($string)
 length?int
 is?string
+public function call_back($string)?new Str()
 }
 
 
