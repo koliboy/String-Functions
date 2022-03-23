@@ -1,2 +1,3 @@
 # Str
 php String Objects Chains like length,forEach,filter,replace,repalcAll much More....
+<div>hello</div>
