@@ -3,7 +3,7 @@ php String Objects Chains like length,forEach,filter,replace,repalcAll much More
 ###Job
 ```php
 $str = Str("koli");
-$str->forEach(function($chr,$index,$array,$argu){
+$str->forEach(function($chr,$index,$string,$argu){
 Str($chr)->firstUpper()
   ->echo();
   //K
