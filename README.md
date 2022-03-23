@@ -38,7 +38,7 @@ public function  __construct($string)
 length?int
 is?string
 public function call_back($string)?new Str()
-public function forEach($call,arg...)?void
+public function forEach($call,arg...)? void
 }
 
 
