@@ -20,7 +20,7 @@ function colors ($color,$index,$array){
   return "black";
   }
 }
-Str(" My  favrouts colores red blue green")->replaceEach(colors)
+Str(" My  favrouts colores red blue green")->replaceEach("red|blue|green",colors)
 ->echo() //My  favrouts colores gray white  black
 
 ```
