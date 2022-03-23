@@ -8,3 +8,9 @@ Str("KOLi")->echo(); //koli
 // retuble  String
 echo Str("green red")->is; //green red
 ```
+
+## prototypes 
+#### length
+```php
+echo Str("koli") -> length; // 4
+```
