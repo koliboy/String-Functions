@@ -2,6 +2,11 @@
 php String Objects Chains like length,forEach,filter,replace,repalcAll much More....
 ###Job
 ```php
+Str("hello php")
+->title ()
+```html
+<s> hello </s>
+```
 $str = Str("koli");
 $str->forEach(function($chr,$index,$string,$argu){
 Str($chr)->firstUpper()
