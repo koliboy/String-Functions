@@ -4,9 +4,14 @@ php String Objects Chains like length,forEach,filter,replace,repalcAll much More
 ```php
 Str("hello php")
 ->title ()
-```html
-<s> hello </s>
+-> echo("<h1>","</h1">);
 ```
+```html
+<h1>Hello Php </h1>
+```
+
+
+```php
 $str = Str("koli");
 $str->forEach(function($chr,$index,$string,$argu){
 Str($chr)->firstUpper()
