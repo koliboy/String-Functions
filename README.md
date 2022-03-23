@@ -3,7 +3,7 @@ php String Objects Chains like length,forEach,filter,replace,repalcAll much More
 ###Job
 ```php
 $str = Str("koli");
-$str->forEach(function($chr,$index,$array){
+$str->forEach(function($chr,$index,$array,$argu){
 Str($chr)->firstUpper()
   ->echo();
   //K
@@ -11,6 +11,18 @@ Str($chr)->firstUpper()
   //L
   //I
 });
+function colors ($color,$index,$array){
+  if($color == "red"){
+   return "gray";
+  }else  if($color == "red"){
+   return "white";
+  }else {
+  return "black";
+  }
+}
+Str(" My  favrouts colores red blue green")->replaceEach(colors)
+->echo() //My  favrouts colores gray white  black
+
 ```
 
 ## Interface Str class
