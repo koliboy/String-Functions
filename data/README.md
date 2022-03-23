@@ -1,5 +1,5 @@
 
-"""" Sytax...
+### Sytax...
 ```php
 $str = new Str("hello ");
 $str->echo(); //hello
