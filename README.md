@@ -34,13 +34,18 @@ echo gettype($strObject)  // object
 ## Interface Str class
 ```php
 class Str {
-public function  __construct($string)
+public function  __construct($string?string)
 length?int
 is?string
 public function call_back($string)? this
 public function forEach($call?function,arg...?mix)? void
 public function filter($call?function,arg...?mix)? this
 public function cslashes($chr?string)? this
+public function slashes()? this
+public function hex2()? this
+public function bin2()? this
+public function chunk($length?int,$chunk?string)? this
+public function  udecode()? this
 }
 
 
