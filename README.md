@@ -3,9 +3,10 @@ php String Objects Chains like length,forEach,filter,replace,repalcAll much More
 ###Job
 ```php
 Str("hello php")
-->title ()
--> echo("<h1>","</h1">);
+->title ()->
+ echo("<h1>","</h1">);
 ```
+**Output**
 ```html
 <h1>Hello Php </h1>
 ```
