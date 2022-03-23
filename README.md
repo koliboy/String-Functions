@@ -11,6 +11,8 @@ Str($chr)->firstUpper()
   //L
   //I
 });
+
+
 function colors ($color,$index,$array){
   if($color == "red"){
    return "gray";
