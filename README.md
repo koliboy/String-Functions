@@ -44,7 +44,7 @@ echo gettype($strObject)  // object
 ```
 
 ## Interface Str class
-```php
+```js
 class Str {
 public function  __construct($string?string)
 length?int
