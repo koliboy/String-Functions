@@ -25,6 +25,10 @@ function colors ($color,$index,$array){
 Str(" My  favrouts colores red blue green")->replaceEach("red|blue|green",colors)
 ->echo() //My  favrouts colores gray white  black
 
+$strObject = Str("gurjar");
+echo $strObject;  //[object Str]
+echo gettype($strObject)  // object
+
 ```
 
 ## Interface Str class
