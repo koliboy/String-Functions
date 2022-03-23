@@ -49,7 +49,7 @@ public function  udecode()? this
 public function  chars($mod?int)? this|Array
 public function  c32()? this
 public function  crypt($salt?string)? this
-public function  echo($offsetA?string,$offsetB?string)? this
+public function  echo($offsetA?string,$offsetB?String)? this
 public function  toArray($separator?string,$limit?string|int)? Array
 }
 
