@@ -1,3 +1,4 @@
 # Str("My Somentig String")
 php String Objects Chains like length,forEach,filter,replace,repalcAll much More....
-<div style='color:red'>hello</div>
+
+"" Interface
