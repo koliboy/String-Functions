@@ -38,23 +38,34 @@ class Str {
 public function  __construct($string?string)
 length?int
 is?string
-public function 
-call_back($string)? this
+public function call_back
+($string)? this
 public function forEach
 ($call?function,arg...?mix)? void
 public function filter
 ($call?function,arg...?mix)? this
-public function cslashes($chr?string)? this
-public function slashes()? this
-public function hex2()? this
-public function bin2()? this
-public function chunk($length?int,$chunk?string)? this
-public function  udecode()? this
-public function  chars($mod?int)? this|Array
-public function  c32()? this
-public function  crypt($salt?string)? this
-public function  echo($offsetA?string,$offsetB?string)? this
-public function  toArray($separator?string,$limit?string|int)? Array
+public function cslashes
+($chr?string)? this
+public function slashes
+()? this
+public function hex2
+()? this
+public function bin2
+()? this
+public function chunk
+($length?int,$chunk?string)? this
+public function  udecode
+()? this
+public function  chars
+($mod?int)? this|Array
+public function  c32
+()? this
+public function  crypt
+($salt?string)? this
+public function  echo
+($offsetA?string,$offsetB?string)? this
+public function  
+toArray($separator?string,$limit?string|int)? Array
 }
 
 
