@@ -14,3 +14,8 @@ echo Str("green red")->is; //green red
 ```php
 echo Str("koli") -> length; // 4
 ```
+#### is
+** return string **
+```php
+echo Str("koli") -> length; // 4
+```
