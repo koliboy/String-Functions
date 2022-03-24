@@ -152,19 +152,6 @@ Str('he\llo')->slashes()
 he\\llo
 ```
 
-> #### ->cslashes()
-```php
-$str  = Str('hello');
-
-
-$str->cslashes('l')
-->echo()
-```
-**output**
-```html
-he\l\lo
-```
-
 > #### ->hex2()
 ```php
 Str('hello')->hex2()
