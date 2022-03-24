@@ -280,3 +280,21 @@ arrayTo($cup)
 ```html
 Text Prosing ?String :Right
 ```
+
+
+> #### ->htmlDecode()
+> #### ->htmlEncode()
+html_entity_decode — Convert HTML entities to their corresponding characters
+ Learn more [...](https://www.php.net/manual/en/function.html-entity-decode.php)
+```php
+Str("I'll \"walk\" the <b>dog</b> now")
+->htmlDecode()->echo()
+->htmlEncode()->echo();
+
+```
+**output**
+```html
+I'll &quot;walk&quot; the &lt;b&gt;dog&lt;/b&gt; now
+
+I'll "walk" the <b>dog</b> now
+```
