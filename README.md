@@ -119,15 +119,15 @@ public function htmlDecode
 
 
 public function  htmlEn 
-($Flags=ENT_QUOTES?Number,$encoding= null;?Null,$double_encode = true;?Boolean)?  call_back()
+($Flags=ENT_QUOTES;?Number,$encoding= null;?Null,$double_encode = true;?Boolean)?  call_back()
 
 
 public function  htmlspecial 
-($Flags=ENT_QUOTES?Number,$encoding = null;?Null,$double_encode = true;?Boolean)?  call_back()
+($Flags=ENT_QUOTES;?Number,$encoding = null;?Null,$double_encode = true;?Boolean)?  call_back()
 
 
 public function   htmlspecialDe
-($Flags=ENT_QUOTES?Number)?  call_back()
+($Flags=ENT_QUOTES;?Number)?  call_back()
 
 
 public function   firstLower
@@ -139,11 +139,11 @@ public function   firstUpper
 
 
 public function   distance
-($string2?String, $insertion_cost = 1?Number, $replacement_cost = 1?Number, $deletion_cost = 1?Number)?  Number
+($string2?String, $insertion_cost = 1;?Number, $replacement_cost = 1;?Number, $deletion_cost = 1;?Number)?  Number
 
 
 public function    ltrim
-($characters = "\n\r\t\v\x00"?String)?  call_back()
+($characters = "\n\r\t\v\x00";?String)?  call_back()
 
 
 public function    md5
