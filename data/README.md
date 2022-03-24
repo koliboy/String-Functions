@@ -527,8 +527,9 @@ array(2) { ["name"]=> string(4) "koli" ["age"]=> string(2) "21" }
 ```
 
 > #### ->print()
+> #### ->printB()
 Alos Like **[echo()](#-echo)**
-**[printB()](#-printB)**  **[both()](#-both)**
+  **[both()](#-both)**
 **[left()](#-left)**  **[right()](#-right)** 
 
 ```php
