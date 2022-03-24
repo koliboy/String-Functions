@@ -77,7 +77,7 @@ public function  udecode
 ()? call_back()
 
 public function  chars
-($mod?Number)?  (call_back()|| Array)
+($mod?Number)?  (call_back()| Array)
 
 public function  c32
 ()?  call_back()
@@ -88,18 +88,24 @@ public function  crypt
 public function  echo
 ($offsetA?String,$offsetB?String)? call_back()
 
-public toArray  
+public  function toArray  
 toArray($separator?String,$limit?PHP_INT_MAX)? Array
 
-public arrayTo  
+public  function arrayTo  
 toArray($separator?String,$Array?Array)? call_back()
 
-public fromArray  
+public  function fromArray  
 ()? Array
 
-public htmlDecode  
-($Flags?Nuber,$encoding?Null)? Array
+public function htmlDecode  
+($Flags=ENT_QUOTES?Number,$encoding = null?Null)?  call_back()
 }
 
+public function  htmlEn 
+($Flags=ENT_QUOTES?Number,$encoding= null?Nullm$double_encode = true?Boolean)?  call_back()
+}
 
+public function  htmlspecial 
+($Flags=ENT_QUOTES?Number,$encoding?Nullm$double_encode = true?Boolean)?  call_back()
+}
 ```
