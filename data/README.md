@@ -141,3 +141,52 @@ $str->cslashes('l')
 ```html
 he\l\lo
 ```
+
+> #### ->slashes()
+```php
+Str('he\llo')->slashes()
+->echo()
+```
+**output**
+```html
+he\\llo
+```
+
+> #### ->cslashes()
+```php
+$str  = Str('hello');
+
+
+$str->cslashes('l')
+->echo()
+```
+**output**
+```html
+he\l\lo
+```
+
+> #### ->hex2()
+```php
+Str('hello')->hex2()
+->echo()
+->bin2()
+->echo('<div>',"</div>")
+```
+**output**
+```html
+68656c6c6f
+hello
+```
+
+> #### ->bin2()
+```php
+Str('hello')->hex2()
+->echo()
+->bin2()
+->echo('<div>',"</div>")
+```
+**output**
+```html
+68656c6c6f
+hello
+```
