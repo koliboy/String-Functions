@@ -14,12 +14,12 @@ echo Str("green red")->is; //green red
 ```php
 echo Str("koli") -> length; // 4
 ```
-#### is
+#### ->is
 ###### return string
 ```php
 echo Str("koli") -> length; // 4
 ```
-#### call_back
+#### ->call_back
 ```php
 $str  = Str('back to back String');
 
