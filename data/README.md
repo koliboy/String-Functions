@@ -17,7 +17,7 @@ echo Str("koli") -> length; // 4
 > #### ->is
 ###### return string
 ```php
-echo Str("koli") -> length; // 4
+echo Str("koli") -> is; // koli
 ```
 > #### ->call_back()
 ```php
