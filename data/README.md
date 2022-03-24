@@ -113,7 +113,7 @@ o And Somting
 > #### ->filter()
  also red call back function same [forEach](#-foreach)
  Alos Like **[forEach()](#-forEach)**  **[replaceEach()](#-replaceEach)**  **[replace()](#-replace)** 
- **[match()](#-replace)**  **[cslice()](#-cslice)** [slice()](#-cslice)**
+ **[match()](#-replace)**  **[cslice()](#-cslice)**  **[slice()](#-cslice)**
 ```php
 $str  = Str('foo');
 
@@ -475,4 +475,34 @@ Today Is 25 march nex day is 26 march
 
 <div> Today Is 25 march nex day is 26 march <div>
 string(40) "Today Is 25 march nex day is 26 march "
+```
+
+> #### ->aByte()
+
+```php
+echo Str("A")
+->aByte();
+```
+**output**
+```html
+65
+```
+
+> #### ->dump()
+Alos Like **[echo()](#-echo)**
+**[printB()](#-printB)** **[print()](#-print)** **[both()](#-both)**
+**[left()](#-left)**  **[right()](#-right)** 
+
+```php
+Str(" i hode  yor  esae learn this  content")
+->left("<p>[")
+->right(']</p>')
+->dump();
+```
+**output**
+```html
+string(47) "
+[ i hode yor esae learn this content]
+
+"
 ```
