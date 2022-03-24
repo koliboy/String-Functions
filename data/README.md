@@ -432,15 +432,16 @@ ENDorgnal text
 $string2 = "Today Is  25 march\n"; 
 $string3 = "nex day is  26 march";
 
-Str(" ")
+Str("today day ")
 ->echoB($string2)
 ->echoB($string3)
 
-->echo("<p>Orgnal String<p>");
+->echo("","<p>sunday<p>");
 ```
 ```html
 Today Is 25 march nex day is 26 march
-Orgnal String
+today day
+sunday
 ```
 
 ```php
