@@ -60,3 +60,24 @@ char is :j index Of 9 argument
 char is :a index Of 10 argument
 char is :r index Of 11 argument
 ```
+*** global scoop call 
+```php
+$str  = Str('hello');
+
+$somting = "Somting";
+
+$str->
+forEach(
+    function ($chr){
+        global $somting;
+     echo "<div>$chr And  $somting</div>";   
+    });
+```
+**output**
+```html
+h And Somting
+e And Somting
+l And Somting
+l And Somting
+o And Somting
+```
