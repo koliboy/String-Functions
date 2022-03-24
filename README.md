@@ -80,6 +80,7 @@ public function  chars
 
 public function  c32
 ()?  call_back()
+
 public function  crypt
 ($salt?String)? call_back()
 
