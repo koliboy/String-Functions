@@ -64,17 +64,22 @@ public function cslashes
 public function slashes
 ()? call_back()
 
+
 public function hex2
 ()? call_back()
+
 
 public function bin2
 ()? this
 
+
 public function chunk
 ($length?Number,$chunk?String)? call_back()
 
+
 public function  udecode
 ()? call_back()
+
 
 public function  chars
 ($mod?Number)?  (call_back()| Array)
@@ -82,20 +87,26 @@ public function  chars
 public function  c32
 ()?  call_back()
 
+
 public function  crypt
 ($salt?String)? call_back()
+
 
 public function  echo
 ($offsetA?String,$offsetB?String)? call_back()
 
+
 public  function toArray  
 toArray($separator?String,$limit?PHP_INT_MAX)? Array
+
 
 public  function arrayTo  
 toArray($separator?String,$Array?Array)? call_back()
 
+
 public  function fromArray  
 ()? Array
+
 
 public function htmlDecode  
 ($Flags=ENT_QUOTES?Number,$encoding = null?Null)?  call_back()
