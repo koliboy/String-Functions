@@ -116,19 +116,19 @@ public  function fromArray
 
 public function htmlDecode  
 ($Flags=ENT_QUOTES?Number,$encoding = null?Null)?  call_back()
-}
+
 
 public function  htmlEn 
 ($Flags=ENT_QUOTES?Number,$encoding= null?Nullm$double_encode = true?Boolean)?  call_back()
-}
+
 
 public function  htmlspecial 
 ($Flags=ENT_QUOTES?Number,$encoding?Nullm$double_encode = true?Boolean)?  call_back()
-}
+
 
 public function   htmlspecialDe
 ($Flags=ENT_QUOTES?Number)?  call_back()
-}
+
 
 public function   firstLower
 ()?  call_back()
