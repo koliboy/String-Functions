@@ -189,14 +189,14 @@ Str('hello')->chunk(2,"()")
 he()ll()o()
 ```
 
-> #### ->udecode()
+> #### ->udecode()||->uencode()
 ```php
 Str('he/rr/rrr=?555')->udecode()
-->echo()
+->echo()->uencode()->echo("\n")
 ```
 **output**
 ```html
-��=$�u�
+��=$�u� (%/22/222=?4` `
 ```
 > #### ->chars()
  red more [count_chars()](https://www.php.net/manual/en/function.count-chars.php)
