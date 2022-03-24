@@ -100,7 +100,7 @@ $arrow_call = function ($chr){
 };     
 $str->forEach(call); //true
 $str->forEach('call_2'); //true you can call function name  by string name
-$str->forEach('call_2'); //false
+$str->forEach($arrow_call); //false
 ```
 **output**
 ```html
