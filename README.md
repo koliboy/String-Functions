@@ -46,20 +46,26 @@ echo gettype($strObject)  // object
 ## Interface Str class
 ```js
 class Str {
+
 public function  __construct
 ($string?String)length?Number||is?String
+
 
 public function call_back
 ($string?String)? new This
 
+
 public function forEach
 ($call?function,$arg...?Arguments)? void
+
 
 public function filter
 ($call?Function,$arg...?Arguments)? call_back()
 
+
 public function cslashes
 ($chr?String)? call_back()
+
 
 public function slashes
 ()? call_back()
