@@ -243,6 +243,36 @@ public function    replaceEach
 
 public function    findCount
 ($find?String,!$fun?Function)? (Number|call_back())
+
+public function    padStart
+($length =0;?Number,$pad_string?String)? call_back()
+
+
+public function    padEnd
+($length =0;?Number,$pad_string?String)? call_back()
+
+
+public function    padBoth
+($length =0;?Number,$pad_string?String)? call_back()
+
+
+public function    repeat
+($count?Number)? call_back()
+
+
+public function    shuffle
+($count?Number)? call_back()
+
+public function    split
+($split?String)? call_back()
+
+
+public function    splitB
+($split?String)? Array
+
+
+public function    wordCount
+($formate =0;?Number,$characters = null;Null)? Array
 }
 
 ```
