@@ -254,6 +254,7 @@ orginal text After pregrap
 
  > #### ->toArray()
  string to Array Learn more [explode()](https://www.php.net/manual/en/function.explode.php)
+  Alos Like **[arrayTo()](#-toArra)** **[split()](#-split)** **[splitB()](#-splitB)**
 ```php
 $cup = Str("A,b,c")->toArray(",");
 
@@ -272,6 +273,7 @@ Array ( [0] => A [1] => b,c )
 
  > #### ->arrayTo()
   Array to String Learn more [implode()](https://www.php.net/manual/en/function.implode.php)
+  Alos Like **[toArray()](#-toArra)** **[split()](#-split)** **[splitB()](#-splitB)**
 ```php
 $cup = ["S","t","r","i","n","g"];
 
