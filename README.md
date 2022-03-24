@@ -66,6 +66,7 @@ public function slashes
 
 public function hex2
 ()? call_back()
+
 public function bin2
 ()? this
 
