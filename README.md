@@ -311,6 +311,10 @@ public function   subCompare
 ($needle = "";?String, $offset = 0;?Number, $length = 0;?Number, $case_insensitive = false;?Boolean)? Number
 
 
+
+public function   subCount
+( $needle?String, $offset = 0;?Number, $length = 0;?Number)? Number
+
 }
 
 ```
