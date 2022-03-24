@@ -125,4 +125,28 @@ public function  htmlEn
 public function  htmlspecial 
 ($Flags=ENT_QUOTES?Number,$encoding?Nullm$double_encode = true?Boolean)?  call_back()
 }
+
+public function   htmlspecialDe
+($Flags=ENT_QUOTES?Number)?  call_back()
+}
+
+public function   firstLower
+()?  call_back()
+
+
+public function   firstUpper
+()?  call_back()
+
+
+public function   distance
+($string2?String, $insertion_cost = 1?Number, $replacement_cost = 1?Number, $deletion_cost = 1?Number)?  Number
+
+
+public function    ltrim
+($characters = "\n\r\t\v\x00"?String)?  call_back()
+
+
+public function    md5
+($binary = false?Boolean)?  call_back()
+}
 ```
