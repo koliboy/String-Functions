@@ -506,3 +506,22 @@ string(47) "
 
 "
 ```
+
+
+> #### ->parse_str()
+
+
+```php
+Str("name=koli&age=21")
+->parse_str("output") 
+//->parse_str($output) * sytax error
+->echo("<p>","</p>");   
+
+var_dump($output)
+```
+**output**
+```html
+<p>name=koli&age=21</p>
+
+array(2) { ["name"]=> string(4) "koli" ["age"]=> string(2) "21" }
+```
