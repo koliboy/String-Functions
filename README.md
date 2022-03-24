@@ -50,7 +50,7 @@ public function  __construct
 ($string?String)length?Number||is?String
 
 public function call_back
-($string?String)? this
+($string?String)? Object.Str
 
 public function forEach
 ($call?function,arg...?Arguments)? void
