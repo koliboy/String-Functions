@@ -95,7 +95,7 @@ public function  chars
 ($mod?Number)?  (call_back()| Array)
 
 public function  c32
-()?  call_back()
+()?  Number
 
 
 public function  crypt
