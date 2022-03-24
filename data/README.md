@@ -19,7 +19,7 @@ echo Str("koli") -> length; // 4
 ```php
 echo Str("koli") -> length; // 4
 ```
-#### ->call_back
+#### ->call_back()
 ```php
 $str  = Str('back to back String');
 
