@@ -199,6 +199,14 @@ public function    sha1
 public function    same
 ($string2?String)?  Object()?value|?percent
 
+
+public function    soundex
+()?  call_back()
+
+
+public function    formate
+(...$vales?Aguments)?  call_back()
+
 }
 
 ```
