@@ -112,6 +112,8 @@ o And Somting
 ```
 > #### ->filter()
  also red call back function same [forEach](#-foreach)
+ Alos Like **[forEach()](#-forEach)**  **[replaceEach()](#-replaceEach)**  **[replace()](#-replace)** 
+ **[match()](#-replace)**  **[cslice()](#-cslice)**
 ```php
 $str  = Str('foo');
 
@@ -227,7 +229,7 @@ paagWgB/nq8gk
 
 > #### ->echo()
 maltipal echo  output  same object 
-Alos Like **[echo()](#-echoB)**
+Alos Like **[echoB()](#-echoB)**
 **[printB()](#-printB)** **[print()](#-print)** **[both()](#-both)**
 **[left()](#-left)**  **[right()](#-right)** 
 **[dump()](#-dump)**
