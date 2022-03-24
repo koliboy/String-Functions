@@ -525,3 +525,28 @@ var_dump($output)
 
 array(2) { ["name"]=> string(4) "koli" ["age"]=> string(2) "21" }
 ```
+
+> #### ->print()
+Alos Like **[echo()](#-echo)**
+**[printB()](#-printB)**  **[both()](#-both)**
+**[left()](#-left)**  **[right()](#-right)** 
+
+```php
+Str("hello pink red")
+->print("<p>",'</p>')
+->echo()
+->printB("<p> !good bAy </p>")
+->left("@")
+->echo()
+->print("<p>welcome","</p>");  
+```
+**output**
+```html
+<p>hello pink red </p>
+
+hello pink red
+<p>!good bAy </p>
+
+@hello pink red
+<p> welcome@hello pink red </p>
+```
