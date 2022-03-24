@@ -299,3 +299,22 @@ I'll &quot;walk&quot; the &lt;b&gt;dog&lt;/b&gt; now
 
 I'll "walk" the <b>dog</b> now
 ```
+
+> #### ->htmlspecialEncode()
+> #### ->htmlspecialDecode()
+[Learn more...](https://www.php.net/manual/en/function.htmlspecialchars-decode.php)
+```php
+Str("<a href='home'>Hello</a>")
+ ->htmlspecialEncode()
+ ->echo()
+ ->htmlspecialDecode ()
+ ->printB("<p> After</p>")
+ ->echo('\n')
+
+```
+**output**
+```html
+&lt;a href=&#039;home&#039;&gt;Hello&lt;/a&gt;
+After
+<a href='home'>Hello</a>
+```
