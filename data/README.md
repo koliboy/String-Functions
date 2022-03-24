@@ -449,7 +449,7 @@ $string2 = "Today Is  25 march\n";
 $string3 = "nex day is  26 march";
 
 $a= Str(" ")
-->echoB($string2)
+->echoB(Str($string2)->is)
 ->echoB($string3)
 
 ->echo("<p>Somting<p>")
