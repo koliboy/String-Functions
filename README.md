@@ -207,6 +207,17 @@ public function    soundex
 public function    formate
 (...$vales?Aguments)?  call_back()
 
+
+public function    includes
+($find?String)?  Boolean
+
+
+public function    slice
+($start?Number,$end?Number)?  call_back()
+
+public function    endsWith
+($needle?String)? Boolean
+
 }
 
 ```
