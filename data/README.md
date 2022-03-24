@@ -128,3 +128,16 @@ $str->filter(good)
 oo
 food
 ```
+
+> #### ->cslashes()
+```php
+$str  = Str('hello');
+
+
+$str->cslashes('l')
+->echo()
+```
+**output**
+```html
+he\l\lo
+```
