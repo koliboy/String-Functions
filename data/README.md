@@ -223,3 +223,24 @@ Str("12345678")
 ```html
 paagWgB/nq8gk
 ```
+
+
+> #### ->echo()
+maltipal echo  output  same object 
+```php
+Str("orginal text")
+->echo()
+ ->echo('<div> {',"}</div>")
+ 
+ ->echo("","\n After pregrap <p> Hello php Devloper...")
+ 
+->echo("<p>","<p>");
+```
+**output**
+```html
+orginal text
+<div> {orginal text} </div>
+orginal text After pregrap
+<p> Hello php Devloper...</p>
+<p> orginal text </p>
+```
