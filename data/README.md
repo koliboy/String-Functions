@@ -411,7 +411,8 @@ ___results____
 ```
 
 > #### ->echoB()
-Alos Like [echo](#-echo()),[printB()](#-printB),[print()](#-print),[both()](#-both),
+Alos Like **[echo()](#-echo())**
+**[printB()](#-printB)**,[print()](#-print),[both()](#-both),
 [left()](#-left) , [right()](#-right),[dump()](#-dump)
 ```php
 Str("orgnal text")
