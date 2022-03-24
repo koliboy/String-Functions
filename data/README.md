@@ -418,7 +418,7 @@ Str("orgnal text")
 ->echo() 
 ->echoB("<s>somting</s>")
 ->echoB("<div>or  mores ..</div>")
-->echo("<b>END</b>")
+->echo("<b>END</b>");
 ```
 **output**
 ```html
@@ -427,4 +427,18 @@ Str("orgnal text")
 orgnal textsomting
 or mores ..
 ENDorgnal text
+```
+```php
+$string2 = "Today Is  25 march\n"; 
+$string3 = "nex day is  26 march";
+
+Str(" ")
+->echoB($string2)
+->echoB($string3)
+
+->echo("<p>Orgnal String<p>")
+```
+```html
+Today Is 25 march nex day is 26 march
+Orgnal String
 ```
