@@ -47,7 +47,7 @@ $str->forEach(
 ```
 **output**
 ```html
- char is :H index Of 0 argument
+char is :H index Of 0 argument
 char is :e index Of 1 argument
 char is :l index Of 2 argument
 char is :l index Of 3 argument
