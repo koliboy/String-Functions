@@ -59,28 +59,36 @@ public function filter
 ($call?Function,$arg...?Arguments)? call_back()
 
 public function cslashes
-($chr?String)? This
+($chr?String)? call_back()
 
 public function slashes
-()? this
+()? call_back()
+
 public function hex2
-()? this
+()? call_back()
 public function bin2
 ()? this
+
 public function chunk
-($length?int,$chunk?string)? this
+($length?Number,$chunk?String)? call_back()
+
 public function  udecode
-()? this
+()? call_back()
+
 public function  chars
-($mod?int)? this|Array
+($mod?Number)?  call_back()|Array
+
 public function  c32
-()? this
+()?  call_back()
 public function  crypt
-($salt?string)? this
+($salt?String)? call_back()
+
 public function  echo
-($offsetA?string,$offsetB?string)? this
+($offsetA?String,$offsetB?String)? call_back()
+
 public function  
 toArray($separator?string,$limit?string|int)? Array
+
 }
 
 
