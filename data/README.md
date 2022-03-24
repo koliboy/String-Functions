@@ -381,7 +381,7 @@ large text
 Str("very Hard  password")
  ->echo("","<p> _______ </p>")
 ->md5()
-->echo()
+->echo();
 ```
 **output**
 ```html
