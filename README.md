@@ -50,16 +50,17 @@ public function  __construct
 ($string?String)length?Number||is?String
 
 public function call_back
-($string?String)? Object.Str
+($string?String)? new This
 
 public function forEach
-($call?function,arg...?Arguments)? void
+($call?function,$arg...?Arguments)? void
 
 public function filter
-($call?Function,arg...?Arguments)? This
+($call?Function,$arg...?Arguments)? This
 
 public function cslashes
-($chr?string)? this
+($chr?String)? This
+
 public function slashes
 ()? this
 public function hex2
