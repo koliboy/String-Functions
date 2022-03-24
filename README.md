@@ -56,7 +56,7 @@ public function call_back
 
 
 public function forEach
-($call?function,$arg...?Arguments)? void
+($call?Function,$arg...?Arguments)? void
 
 
 public function filter
