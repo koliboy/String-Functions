@@ -47,7 +47,7 @@ echo gettype($strObject)  // object
 ```js
 class Str {
 
-public function  __construct
+public function  construct
 ($string?String)length?Number||is?String
 
 
