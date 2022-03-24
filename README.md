@@ -287,6 +287,30 @@ public function   right
 
 public function   both
 ($concatA = "";?String,$concatB = "";?String)? call_back()
+
+public function   coll
+($sring2)? Number
+
+
+public function   tags
+($allowed_tags = null;?Array||String||Null)? call_back()
+
+public function   reverse
+()? call_back()
+
+
+public function   toLowerCase
+()? call_back()
+
+
+public function   toUpperCase
+()? call_back()
+
+
+public function   subCompare
+($needle = "";?String, $offset = 0;?Number, $length = 0;?Number, $case_insensitive = false;?Boolean)? Number
+
+
 }
 
 ```
