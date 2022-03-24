@@ -148,11 +148,11 @@ public function    ltrim
 
 public function    md5
 ($binary = false;?Boolean)?  call_back()
-}
+
 
 public function    lineBreaks
 ($use_xhtml = true;?Boolean)?  call_back()
-}
+
 
 public function    echoB
 ($string?String)?  call_back()
@@ -160,6 +160,7 @@ public function    echoB
 
 public function    aByte
 ()?  call_back()
+
 }
 
 ```
