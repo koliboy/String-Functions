@@ -357,3 +357,36 @@ echo "distance is:".Str("ok poor")
 ```html
 distance is:3
 ```
+
+> #### ->ltrim()
+
+```php
+Str("very large text")
+ ->echo("","<p> _______ </p>")
+->ltrim('very')
+->echo();
+
+```
+**output**
+```html
+very large text
+_______
+
+large text
+```
+
+> #### ->md5()
+
+```php
+Str("very Hard  password")
+ ->echo("","<p> _______ </p>")
+->md5()
+->echo()
+```
+**output**
+```html
+very Hard password
+_______
+
+a4782ce51ccb1e4edb8035613aa47135
+```
