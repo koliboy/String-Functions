@@ -390,3 +390,41 @@ _______
 
 a4782ce51ccb1e4edb8035613aa47135
 ```
+
+
+> #### ->lineBreaks()
+
+```php
+Str("1.First Chapter \n  2.Secount Chapter \n 3.Thired Chapter")
+ ->echo("","<p> _______ </p>")
+->lineBreaks()
+->echo()
+```
+**output**
+```html
+ 1.First Chapter 2.Secount Chapter 3.Thired Chapter
+___results____
+
+1.First Chapter
+2.Secount Chapter
+3.Thired Chapter
+```
+
+> #### ->echoB()
+
+```php
+Str("orgnal text")
+->echoB("<p> Other  text  echo,</p>")
+->echo() 
+->echoB("<s>somting</s>")
+->echoB("<div>or  mores ..</div>")
+->echo("<b>END</b>")
+```
+**output**
+```html
+ Other text echo,
+
+orgnal textsomting
+or mores ..
+ENDorgnal text
+```
