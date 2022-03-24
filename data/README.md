@@ -551,3 +551,31 @@ hello pink red
 @hello pink red
 <p> welcome@hello pink red </p>
 ```
+
+> #### ->left()
+> #### ->right()
+> #### ->both()
+Alos Like **[echo()](#-echo)**
+**[printB()](#-printB)** **[print()](#-print)** 
+**[dump()](#-dump)**
+
+
+```php
+Str("String")
+->left("<span>Left Content conact </span>")
+ ->echo ()
+ ->right("<span> Right Content conact </span>")
+ ->echo("<div>","</div>")
+ 
+ ->left("[")->right("]")
+ ->print("<div>","</div>")
+ ->both("(",")")
+ ->echo();  
+```
+**output**
+```html
+<span>Left Content conact </span> String
+<span>Left Content conact </span> String <span>Right Content conact </span>
+[<span>Left Content conact </span> String <span>Right Content conact </span> ]
+([<span>Left Content conact </span> String <span>Right Content conact </span> ])
+```
