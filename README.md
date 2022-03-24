@@ -53,10 +53,10 @@ public function call_back
 ($string?String)? this
 
 public function forEach
-($call?function,arg...?mix)? void
+($call?function,arg...?Arguments)? void
 
 public function filter
-($call?Function,arg...?Arguments)? this
+($call?Function,arg...?Arguments)? This
 
 public function cslashes
 ($chr?string)? this
