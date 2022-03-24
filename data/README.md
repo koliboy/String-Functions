@@ -265,7 +265,7 @@ Array ( [0] => A [1] => b,c )
 
 
  > #### ->arrayTo()
-  string to Array Learn more [implode()](https://www.php.net/manual/en/function.implode.php)
+  Array to String Learn more [implode()](https://www.php.net/manual/en/function.implode.php)
 ```php
 $cup = ["S","t","r","i","n","g"];
 
