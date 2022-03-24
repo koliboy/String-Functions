@@ -111,6 +111,7 @@ l And Somting
 o And Somting
 ```
 > #### ->filter()
+ also red call back function [forEach]/README.md#-foreach
 ```php
 $str  = Str('foo');
 
