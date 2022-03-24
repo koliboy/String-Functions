@@ -436,9 +436,31 @@ Str(" ")
 ->echoB($string2)
 ->echoB($string3)
 
-->echo("<p>Orgnal String<p>")
+->echo("<p>Orgnal String<p>");
 ```
 ```html
 Today Is 25 march nex day is 26 march
 Orgnal String
+```
+
+```php
+$string2 = "Today Is  25 march\n"; 
+$string3 = "nex day is  26 march";
+
+$a= Str(" ")
+->echoB($string2)
+->echoB($string3)
+
+->echo("<p>Somting<p>")
+->both($string2.$string3) // set orgnal String
+->echo("<div>","</div>");
+
+var_dump($a->is);
+```
+```html
+Today Is 25 march nex day is 26 march
+Somting
+
+Today Is 25 march nex day is 26 march
+string(40) "Today Is 25 march nex day is 26 march "
 ```
