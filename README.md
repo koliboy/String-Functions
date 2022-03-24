@@ -47,8 +47,8 @@ echo gettype($strObject)  // object
 ```js
 class Str {
 public function  __construct($string?string)
-length?int
-is?string
+length?NaN
+is?String
 public function call_back
 ($string)? this
 
