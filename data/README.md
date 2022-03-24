@@ -318,3 +318,27 @@ Str("<a href='home'>Hello</a>")
 After
 <a href='home'>Hello</a>
 ```
+
+> #### ->firstLower()
+> #### ->firstUpper()
+> #### ->title()
+text Style
+```php
+Str("Green yello Pink red") 
+ ->firstLower()->echo("<p> __firstLower__ </p>")
+ ->firstUpper()->echo("<p> __firstUpper__ </p>")
+ ->title()->echo("<p> __All firstUpper__ </p>");
+
+```
+**output**
+```html
+__firstLower__
+
+green yello Pink red
+__firstUpper__
+
+Green yello Pink red
+__All firstUpper__
+
+Green Yello Pink Red
+```
