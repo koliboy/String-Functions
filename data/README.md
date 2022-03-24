@@ -81,3 +81,32 @@ l And Somting
 l And Somting
 o And Somting
 ```
+ call A function
+```php
+$str  = Str('hello');
+
+$somting = "Somting";
+
+function call ($chr){
+    global $somting;
+    echo "<div>$chr And  $somting</div>";   ;  
+}
+
+function call_2 ($chr){
+    /*data*/
+     }
+$arrow_call = function ($chr){
+    /* Sytax error*/
+};     
+$str->forEach(call); //true
+$str->forEach('call_2'); //true you can call function name  by string name
+$str->forEach('call_2'); //false
+```
+**output**
+```html
+h And Somting
+e And Somting
+l And Somting
+l And Somting
+o And Somting
+```
