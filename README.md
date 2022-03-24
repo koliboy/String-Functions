@@ -218,6 +218,23 @@ public function    slice
 public function    endsWith
 ($needle?String)? Boolean
 
+
+public function    startWith
+($needle?String)? Boolean
+
+
+public function    replaceAll
+($search?String,$replace?String|Function)? call_back()
+}
+
+
+public function    replace
+($search?String,$replace?String|Function)? call_back()
+}
+
+
+public function    replaceLast
+($search?String,$replace?String|Function)? call_back()
 }
 
 ```
