@@ -171,7 +171,7 @@ public function    dump
 
 
 public function     parse_str
-($result?Global)?  call_back()
+($result?Global&String)?  call_back()
 
 
 public function     print
