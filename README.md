@@ -163,7 +163,7 @@ public function    echoB
 
 
 public function    aByte
-()?  call_back()
+()?  Number
 
 
 public function    dump
