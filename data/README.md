@@ -120,9 +120,11 @@ function good ($chr){
     }
 }
 $str->filter(good)
-->echo(); 
+->echo()
+->echo('<div>F',"</div>"); 
 ```
 **output**
 ```html
 oo
+food
 ```
