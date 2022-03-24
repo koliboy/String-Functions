@@ -60,7 +60,7 @@ char is :j index Of 9 argument
 char is :a index Of 10 argument
 char is :r index Of 11 argument
 ```
-*** global scoop call 
+global scoop call 
 ```php
 $str  = Str('hello');
 
