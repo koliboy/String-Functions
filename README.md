@@ -126,11 +126,11 @@ public function  htmlEncode
 ($Flags=ENT_QUOTES;?Number,$encoding= null;?Null,$double_encode = true;?Boolean)?  call_back()
 
 
-public function  htmlspecial 
+public function  htmlspecialEncode 
 ($Flags=ENT_QUOTES;?Number,$encoding = null;?Null,$double_encode = true;?Boolean)?  call_back()
 
 
-public function   htmlspecialDe
+public function   htmlspecialDecode
 ($Flags=ENT_QUOTES;?Number)?  call_back()
 
 
