@@ -244,3 +244,21 @@ orginal text After pregrap
 <p> Hello php Devloper...</p>
 <p> orginal text </p>
 ```
+
+
+ > #### ->toArray()
+ string to Array Learn more [explode()](https://www.php.net/manual/en/function.explode.php)
+```php
+$cup = Str("A,b,c")->toArray(",");
+
+$min_cup = Str("A,b,c")->toArray(",",2);
+
+print_r($cup);
+
+print_r($min_cup);
+```
+**output**
+```html
+Array ( [0] => A [1] => b [2] => c )
+Array ( [0] => A [1] => b,c )
+```
