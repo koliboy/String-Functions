@@ -151,7 +151,7 @@ public function    md5
 }
 
 public function    lineBreaks
-($use_xhtml = true;Boolean)?  call_back()
+($use_xhtml = true;?Boolean)?  call_back()
 }
 
 public function    echoB
