@@ -224,7 +224,7 @@ public function    startWith
 
 
 public function    replaceAll
-($search?String,$replace;?(String|Function))? call_back()
+($search?String,$replace?String,Function)? call_back()
 }
 
 
