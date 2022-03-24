@@ -315,6 +315,43 @@ public function   subCompare
 public function   subCount
 ( $needle?String, $offset = 0;?Number, $length = 0;?Number)? Number
 
+
+public function   substring
+( $length?Number)? call_back()
+
+public function   trim
+($characters = " \n\r\t\v\x00";?String)? call_back()
+
+public function   title
+($separators = " \n\r\t\v\x00";?String)? call_back()
+
+
+public function   wordwrap
+($width = 75;?Number, $break = "\n";?String,$cut_long_words = false;?Boolean)? call_back()
+
+
+public function   charAt
+($index?Number)? call_back()
+
+
+public function   concat
+(...$string?String)? call_back()
+
+
+public function   match
+($match?String, $flags = 0;?Number, $offset = 0;?Number)? Array
+
+public function   matchAll
+($match?String, $flags = 0;?Number, $offset = 0;?Number)? Array
+
+
+public function   search
+($search?String)? Number
+
+
+public function   cslice
+($from?String, $to?String)? Number
+
 }
 
 ```
