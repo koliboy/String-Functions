@@ -122,7 +122,7 @@ public function htmlDecode
 ($Flags?Number,$encoding = null;?Null)?  call_back()
 
 
-public function  htmlEn 
+public function  htmlEncode 
 ($Flags=ENT_QUOTES;?Number,$encoding= null;?Null,$double_encode = true;?Boolean)?  call_back()
 
 
