@@ -87,6 +87,10 @@ public function  udecode
 ()? call_back()
 
 
+public function   uencode
+()? call_back()
+
+
 public function  chars
 ($mod?Number)?  (call_back()| Array)
 
