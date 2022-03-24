@@ -262,3 +262,21 @@ print_r($min_cup);
 Array ( [0] => A [1] => b [2] => c )
 Array ( [0] => A [1] => b,c )
 ```
+
+
+ > #### ->arrayTo()
+  string to Array Learn more [implode()](https://www.php.net/manual/en/function.implode.php)
+```php
+$cup = ["S","t","r","i","n","g"];
+
+Str("Text Prosing ?") 
+  ->echo()->
+arrayTo($cup)
+->echo()
+->echoB("\n :Right");
+
+```
+**output**
+```html
+Text Prosing ?String :Right
+```
