@@ -177,3 +177,23 @@ Str('hello')->hex2()
 68656c6c6f
 hello
 ```
+
+> #### ->chunk()
+```php
+Str('hello')->chunk(2,"()")
+->echo()
+```
+**output**
+```html
+he()ll()o()
+```
+
+> #### ->udecode()
+```php
+Str('he/rr/rrr=?555')->udecode()
+->echo()
+```
+**output**
+```html
+��=$�u�
+```
