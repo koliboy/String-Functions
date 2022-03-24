@@ -46,7 +46,7 @@ echo gettype($strObject)  // object
 ## Interface Str class
 ```js
 class Str {
-public function  __construct($string?string)
+public function  __construct($string?String)
 length?NaN
 is?String
 public function call_back
