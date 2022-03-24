@@ -115,15 +115,15 @@ public  function fromArray
 
 
 public function htmlDecode  
-($Flags?Number,$encoding = null)?  call_back()
+($Flags?Number,$encoding = null;?Null)?  call_back()
 
 
 public function  htmlEn 
-($Flags=ENT_QUOTES?Number,$encoding= null$double_encode = true;?Boolean)?  call_back()
+($Flags=ENT_QUOTES?Number,$encoding= null;?Null$double_encode = true;?Boolean)?  call_back()
 
 
 public function  htmlspecial 
-($Flags=ENT_QUOTES?Number,$encoding = null,$double_encode = true?Boolean)?  call_back()
+($Flags=ENT_QUOTES?Number,$encoding = null;?Null,$double_encode = true;?Boolean)?  call_back()
 
 
 public function   htmlspecialDe
@@ -147,6 +147,6 @@ public function    ltrim
 
 
 public function    md5
-($binary = false?Boolean)?  call_back()
+($binary = false;?Boolean)?  call_back()
 }
 ```
