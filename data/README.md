@@ -113,7 +113,7 @@ o And Somting
 > #### ->filter()
  also red call back function same [forEach](#-foreach)
  Alos Like **[forEach()](#-forEach)**  **[replaceEach()](#-replaceEach)**  **[replace()](#-replace)** 
- **[match()](#-replace)**  **[cslice()](#-cslice)**
+ **[match()](#-replace)**  **[cslice()](#-cslice)** [slice()](#-cslice)**
 ```php
 $str  = Str('foo');
 
