@@ -56,7 +56,8 @@ public function forEach
 ($call?function,arg...?mix)? void
 
 public function filter
-($call?function,arg...?mix)? this
+($call?Function,arg...?arguments)? this
+
 public function cslashes
 ($chr?string)? this
 public function slashes
