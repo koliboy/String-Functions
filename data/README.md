@@ -422,11 +422,11 @@ Str("orgnal text")
 ```
 **output**
 ```html
- Other text echo,
+<p>Other text echo,</p>
 
-orgnal textsomting
-or mores ..
-ENDorgnal text
+orgnal text<s>somting</s>
+<div> or mores .. </div>
+<b>END</b>orgnal text
 ```
 ```php
 $string2 = "Today Is  25 march\n"; 
@@ -441,7 +441,7 @@ Str("today day ")
 ```html
 Today Is 25 march nex day is 26 march
 today day
-sunday
+<p>sunday</p>
 ```
 
 ```php
@@ -460,8 +460,8 @@ var_dump($a->is);
 ```
 ```html
 Today Is 25 march nex day is 26 march
-Somting
+<p> Somting </p>
 
-Today Is 25 march nex day is 26 march
+<div> Today Is 25 march nex day is 26 march <div>
 string(40) "Today Is 25 march nex day is 26 march "
 ```
