@@ -77,7 +77,7 @@ public function  udecode
 ()? call_back()
 
 public function  chars
-($mod?Number)?  call_back()|Array
+($mod?Number)?  call_back()|| Array
 
 public function  c32
 ()?  call_back()
