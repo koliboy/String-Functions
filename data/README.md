@@ -342,3 +342,18 @@ __All firstUpper__
 
 Green Yello Pink Red
 ```
+
+> #### ->distance()
+
+```php
+echo "distance is:".Str("ok poor")
+->distance("%90 poor");
+ //poor == poor 
+ //ok  !=%90 //3
+ //\s == \s
+
+```
+**output**
+```html
+distance is:3
+```
