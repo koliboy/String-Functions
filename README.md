@@ -289,7 +289,7 @@ public function   both
 ($concatA = "";?String,$concatB = "";?String)? call_back()
 
 public function   coll
-($sring2?String)? Number
+($string2?String)? Number
 
 
 public function   tags
