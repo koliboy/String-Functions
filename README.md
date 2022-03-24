@@ -115,7 +115,7 @@ public  function fromArray
 
 
 public function htmlDecode  
-($Flags?Number,$encoding = Null?Null)?  call_back()
+($Flags?Number,$encoding = null)?  call_back()
 
 
 public function  htmlEn 
