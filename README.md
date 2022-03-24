@@ -272,7 +272,21 @@ public function    splitB
 
 
 public function    wordCount
-($formate =0;?Number,$characters = null;String)? Array
+($formate =0;?Number,$characters = null;?String)? Array
+
+
+public function   compare
+($string2?String)? Number
+
+public function   left
+($concat?String)? call_back()
+
+
+public function   right
+($concat?String)? call_back()
+
+public function   both
+($concatA = "";?String,$concatB = "";?String)? call_back()
 }
 
 ```
