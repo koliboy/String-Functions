@@ -189,7 +189,8 @@ Str('hello')->chunk(2,"()")
 he()ll()o()
 ```
 
-> #### ->udecode()||->uencode()
+> #### ->udecode()
+> #### ->uencode()
 ```php
 Str('he/rr/rrr=?555')->udecode()
 ->echo()->uencode()->echo("\n")
