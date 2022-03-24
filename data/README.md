@@ -201,3 +201,25 @@ Str('he/rr/rrr=?555')->udecode()
 ```
 > #### ->chars()
  red more [count_chars()](https://www.php.net/manual/en/function.count-chars.php)
+ 
+ > #### ->c32()
+```php
+echo Str("hello c32")
+->c32();
+```
+**output**
+```html
+1743027734
+```
+
+
+ > #### ->crypt()
+```php
+Str("12345678")
+->crypt("password")
+    ->echo();
+```
+**output**
+```html
+paagWgB/nq8gk
+```
