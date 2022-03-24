@@ -34,3 +34,29 @@ back to back String
 <p> Addon More  String</p>
 New  String
 ```
+
+> #### ->forEach()
+```php
+$str  = Str('Hello gurjar');
+
+$str->forEach(
+    function ($chr,$index,$string,$argument){
+     echo "<div>char is :$chr\n index Of $index\n $argument</div>";  
+    },"argument"
+);
+```
+**output**
+```html
+ char is :H index Of 0 argument
+char is :e index Of 1 argument
+char is :l index Of 2 argument
+char is :l index Of 3 argument
+char is :o index Of 4 argument
+char is : index Of 5 argument
+char is :g index Of 6 argument
+char is :u index Of 7 argument
+char is :r index Of 8 argument
+char is :j index Of 9 argument
+char is :a index Of 10 argument
+char is :r index Of 11 argument
+```
