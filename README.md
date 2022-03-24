@@ -94,6 +94,11 @@ toArray($separator?String,$limit?PHP_INT_MAX)? Array
 public arrayTo  
 toArray($separator?String,$Array?Array)? call_back()
 
+public fromArray  
+()? Array
+
+public htmlDecode  
+($Flags?Nuber,$encoding?Null)? Array
 }
 
 
