@@ -110,3 +110,19 @@ l And Somting
 l And Somting
 o And Somting
 ```
+> #### ->filter()
+```php
+$str  = Str('foo');
+
+function good ($chr){
+    if($chr == "o"){
+        return $chr;
+    }
+}
+$str->filter(good)
+->echo(); 
+```
+**output**
+```html
+oo
+```
