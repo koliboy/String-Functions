@@ -178,6 +178,27 @@ public function   printB
 ($string?String)?  call_back()
 
 
+public function    quotedP_decode
+()?  call_back()
+
+public function    quotedP_encode
+()?  call_back()
+
+public function    quotemeta
+()?  call_back()
+
+public function    rTrim
+($characters = "\n\r\t\v\x00";?String)?  call_back()
+
+
+
+public function    sha1
+($binary = false;?Boolean)?  call_back()
+
+
+public function    same
+($string2?String)?  Object()?value|?percent
+
 }
 
 ```
