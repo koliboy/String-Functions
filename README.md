@@ -88,8 +88,11 @@ public function  crypt
 public function  echo
 ($offsetA?String,$offsetB?String)? call_back()
 
-public function  
-toArray($separator?string,$limit?string|int)? Array
+public toArray  
+toArray($separator?String,$limit?PHP_INT_MAX)? Array
+
+public arrayTo  
+toArray($separator?String,$Array?Array)? call_back()
 
 }
 
