@@ -119,11 +119,11 @@ public function htmlDecode
 
 
 public function  htmlEn 
-($Flags=ENT_QUOTES?Number,$encoding= null?Nullm$double_encode = true?Boolean)?  call_back()
+($Flags=ENT_QUOTES?Number,$encoding= null$double_encode = true?Boolean)?  call_back()
 
 
 public function  htmlspecial 
-($Flags=ENT_QUOTES?Number,$encoding?Nullm$double_encode = true?Boolean)?  call_back()
+($Flags=ENT_QUOTES?Number,$encoding = null,$double_encode = true?Boolean)?  call_back()
 
 
 public function   htmlspecialDe
