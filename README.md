@@ -47,10 +47,11 @@ echo gettype($strObject)  // object
 ```js
 class Str {
 public function  __construct($string?String)
-length?NaN
+length?Number
 is?String
+
 public function call_back
-($string)? this
+($string?String)? this
 
 public function forEach
 ($call?function,arg...?mix)? void
