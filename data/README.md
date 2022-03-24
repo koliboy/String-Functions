@@ -579,3 +579,20 @@ Str("String")
 [<span>Left Content conact </span> String <span>Right Content conact </span> ]
 ([<span>Left Content conact </span> String <span>Right Content conact </span> ])
 ```
+
+> #### ->quotedP_decode()
+> #### ->quotedP_encode()
+ go to [quotedP_decode()](https://www.php.net/manual/en/function.quoted-printable-decode.php)
+ [quotedP_encode()()](https://www.php.net/manual/en/function.quoted-printable-encode.php)
+ 
+ > #### ->quotemeta()
+ ```php
+ Str(" foo \ sss (new)")
+-> quotemeta()
+->echo();
+ ?>
+ ```
+ **output**
+ ```html
+foo \\ sss \(new\)
+```
