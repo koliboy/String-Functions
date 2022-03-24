@@ -56,7 +56,7 @@ public function forEach
 ($call?function,$arg...?Arguments)? void
 
 public function filter
-($call?Function,$arg...?Arguments)? This
+($call?Function,$arg...?Arguments)? call_back()
 
 public function cslashes
 ($chr?String)? This
