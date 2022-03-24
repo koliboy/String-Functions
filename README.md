@@ -224,17 +224,17 @@ public function    startWith
 
 
 public function    replaceAll
-($search?String,$replace?String||Function)? call_back()
+($search?String,$replace?String||Function,$arg?Arguments)? call_back()
 
 
 
 public function    replace
-($search?String,$replace?String||Function)? call_back()
+($search?String,$replace?String||Function,$arg?Arguments)? call_back()
 
 
 
 public function    replaceLast
-($search?String,$replace?String||Function)? call_back()
+($search?String,$replace?String||Function,$arg?Arguments)? call_back()
 }
 
 ```
