@@ -170,6 +170,13 @@ public function     parse_str
 ($result?Global)?  call_back()
 
 
+public function     print
+($offsetA = "";?String,$offsetB = "";?String)?  call_back()
+
+
+public function   printB
+($string?String)?  call_back()
+
 
 }
 
