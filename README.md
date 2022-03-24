@@ -46,9 +46,8 @@ echo gettype($strObject)  // object
 ## Interface Str class
 ```js
 class Str {
-public function  __construct($string?String)
-length?Number
-is?String
+public function  __construct
+($string?String)length?Number||is?String
 
 public function call_back
 ($string?String)? this
