@@ -161,6 +161,16 @@ public function    echoB
 public function    aByte
 ()?  call_back()
 
+
+public function    dump
+()?  call_back()
+
+
+public function     parse_str
+($result?Global)?  call_back()
+
+
+
 }
 
 ```
