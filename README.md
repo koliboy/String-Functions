@@ -272,7 +272,7 @@ public function    splitB
 
 
 public function    wordCount
-($formate =0;?Number,$characters = null;Null)? Array
+($formate =0;?Number,$characters = null;String)? Array
 }
 
 ```
