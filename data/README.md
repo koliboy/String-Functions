@@ -198,3 +198,5 @@ Str('he/rr/rrr=?555')->udecode()
 ```html
 ��=$�u�
 ```
+> #### ->chars()
+ red more [count_chars()](https://www.php.net/manual/en/function.count-chars.php)
