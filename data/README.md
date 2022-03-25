@@ -335,7 +335,8 @@ After
 text Style
 ```php
 
-Str("Green yello Pink red") 
+Str("Green yello Pink red")
+  ->echo("<p> <div>__sample__ </div>","</p>")
  ->firstLower()->echo("<p> <div>__firstLower__ </div>","</p>")
  ->firstUpper()->echo("<p> <div>__firstUpper__ </div>","</p>")
  ->title()->echo("<p> <div>__All firstUpper__ </div>","</p>")
@@ -345,6 +346,8 @@ Str("Green yello Pink red")
 ```
 **output**
 ```html
+__sample__
+Green yello Pink red
 __firstLower__
 green yello Pink red
 __firstUpper__
