@@ -618,3 +618,32 @@ Str("String")
  ```html
 foo \\ sss \(new\)
 ```
+
+> #### ->same()
+```php
+$string2 = "hello world";
+
+$obj = Str("hello borther")
+ 
+->echo("<div>","</div>")
+ ->same($string2);
+
+ 
+  echo "$obj->value And  percent:$obj->percent%";
+ 
+ 
+ 
+$obj1 = Str("hello world")
+ 
+->echo("<div>","</div>")
+ ->same($string2);
+ 
+ echo "$obj1->value And  percent:$obj1->percent%";
+```
+ **output**
+ ```html
+hello borther
+8 And percent:66.666666666667%
+hello world
+11 And percent:100%
+```
