@@ -869,3 +869,30 @@ Str($pages)
 
 [main.html],[cart.html],[join.html]
 ```
+
+> #### ->replaceEach()
+ Alos Like **[replaceAll()](#-replaceAll)** **[replace()](#-replace)**  **[replaceEach()](#-replaceEach)** **[match()](#-match)**
+ **[matchAll()](#-matchAll)** **[findCount()](#-findCount)** **[filter()](#-filter)** **[split()](#-split)**
+ #### see-more
+  [call to function](#call-to-function),[regular expression](#regular-expression)
+```php
+
+function colors ($color,$index,$array){
+  if($color == "red"){
+   return "gray";
+  }else  if($color == "red"){
+   return "white";
+  }else {
+  return "black";
+  }
+}
+Str(" My  favrouts colores red blue green")
+-.echo("div>","</div>")
+->replaceEach("red|blue|green",colors)
+->echo();
+```
+```html
+My  favrouts colores red blue green
+
+My  favrouts colores gray white  black
+```  
