@@ -1123,14 +1123,14 @@ echo Str("abcde")->subCompare("BC", 1, 3,true);
 
 ```
 > #### ->wordwrap()
-``php
+```php
  Str(" hello good  night !!")
  -> wordwrap(5,"<div>massege </div>")
   ->echo("<div>","</div>");
   
     Str(" hello good  night !!")
- -> wordwrap(Str(" hello good  night !!")->length-1,"<div>massege </div>")
-  ->echo();
+ -> wordwrap(Str(" hello good  night !!")->length-1,"\n<span>massege </span>")
+  ->echo()
   ```
  ```html
  hello
@@ -1141,8 +1141,6 @@ night
 massege
 !!
 
-hello good night
-massege
-!!
+hello good night massege !!
 
 ```
