@@ -43,7 +43,7 @@ echo gettype($strObject)  // object
 
 ```
 > ###  All Functions
-###[koli](./koliboy/Str/blob/main/data/ref.md#in-this-page)
+###[koli](/data/ref.md#in-this-page)
 ## Interface Str class
 ```js
 class Str {
