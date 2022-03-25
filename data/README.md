@@ -10,7 +10,11 @@ Str("KOLi")->echo(); //koli
 // retuble  String
 echo Str("green red")->is; //green red
 ```
-
+> ### In This Page
+- **[call_back()](#-call_back)**
+- **[indexOf()](#-indexOf)**
+- **[forEach()](#-forEach)**
+- 
 ## prototypes 
 > #### **->length** 
 ```php
