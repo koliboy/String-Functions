@@ -209,7 +209,7 @@ public function    soundex
 
 
 public function    formate
-(...$vales?Aguments)?  call_back()
+(...$vales?Arguments)?  call_back()
 
 
 public function    includes
