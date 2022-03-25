@@ -1241,7 +1241,7 @@ $matchAll  = Str($pages)->matchAll("[a-z]+(\.html)");
 var_dump($match);
 
 var_dump($matchAll);
-var_dump($matchAll[0])
+var_dump($matchAll[0]);
 ```
 
 ```html
@@ -1250,4 +1250,27 @@ array(2) { [0]=> string(8) "cart.php" [1]=> string(4) ".php" }
 array(2) { [0]=> array(2) { [0]=> string(9) "home.html" [1]=> string(9) "join.html" } [1]=> array(2) { [0]=> string(5) ".html" [1]=> string(5) ".html" } }
 
 array(2) { [0]=> string(9) "home.html" [1]=> string(9) "join.html" }
+```
+
+> #### ->search() 
+Alos Like **[replaceAll()](#-replaceAll)** **[replace()](#-replace)**  **[replaceEach()](#-replaceEach)**
+  **[replaceLast()](#-replaceLast)**
+ **[findCount()](#-findCount)** **[filter()](#-filter)** **[split()](#-split)**
+ 
+ #### see-more
+  [call to function](#call-to-function),[regular expression](#regular-expression)
+  
+  ```php
+  $pages = "home.html,cart.php,join.html";
+
+echo Str($pages)->search("cart.php");
+
+ Str($pages)->slice(10)
+ ->echo("<div>","</div>");
+ ```
+ ```html
+10
+
+cart.php,join.html
+
 ```
