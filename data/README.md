@@ -198,7 +198,8 @@ Str('he/rr/rrr=?555')->udecode()
 
  > #### ->crypt()
  > #### ->c32()
- > #### ->md5() 
+ > #### ->md5()
+ > #### ->sha1() 
 ```php
 Str("12345678")
 ->echo("<div> __crypt__ </div>")
@@ -212,19 +213,35 @@ Str("12345678")
  ->call_back("very Hard  password")
  ->echo("<div> __md5__ </div>")
 ->md5()
-->echo("<div>","</div>");
+->echo("<div>","</div>")
+ 
+ ->call_back("this  sha1")
+ ->echo("<div> __sha1__ </div>")
+ ->sha1() 
+ ->echo("<div>","</div>")
+ ->sha1(true)
+ ->echo("<div> binary   </div>")
 ```
 **output**
 ```html
- __crypt__
+
+__crypt__
   12345678
 paagWgB/nq8gk
+
 __c32__
 hello c32
 1743027734
+
 __md5__
 very Hard  password
 a4782ce51ccb1e4edb8035613aa47135
+
+__sha1__
+this  sha1
+22b5f406e82379c249454b7a8e94e0edb618568b
+binary 
+��� AR�k�6_{HgA�
 ```
 
 
