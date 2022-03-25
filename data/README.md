@@ -741,6 +741,32 @@ array(2) { [0]=> string(4) "food" [1]=> string(4) "good" }
 int(2)
 ```
 
+> #### ->endWith()
+> #### ->startWith()
+
+```php
+var_dump(
+    
+    Str("handel my  twitter @im__koli")
+    ->endWith('koli'),
+    Str("handel my  twitter @im__koli")
+    ->startWith('koli')
+    );
+    
+    var_dump(
+    
+    Str("handel my  twitter @im__koli")
+    ->endWith('gurja'),
+    Str("handel my  twitter @im__koli")
+    ->startWith('handel')
+    );
+```
+ **output**
+ ```html
+bool(true) bool(false)
+bool(false) bool(true)
+```
+
 > #### ->same()
  Alos Like **[compare()](#-compare)**
 ```php
