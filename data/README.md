@@ -10,7 +10,7 @@ echo Str("green red")->is; //green red
 ```
 
 ## prototypes 
-> #### ->length
+> ***#### ->length*** 
 ```php
 echo Str("koli") -> length; // 4
 ```
@@ -483,7 +483,7 @@ $string3 = "nex day is  26 march";
 
 $a= Str(" ")
 ->echoB(Str($string2)->is)
-->echoB($string3)
+->echoB("<div>$string3</div>")
 
 ->echo("<p>Somting<p>")
 ->both($string2.$string3) // set orgnal String
@@ -492,7 +492,8 @@ $a= Str(" ")
 var_dump($a->is);
 ```
 ```html
-Today Is 25 march nex day is 26 march
+Today Is 25 march 
+nex day is 26 march
 <p> Somting </p>
 
 <div> Today Is 25 march nex day is 26 march <div>
