@@ -1035,3 +1035,13 @@ GurjarBoy
 
 G|u|r|j|a|r|,|,|,|,|,|,|,|,|,|,|,|,|B|o|y|
 ```
+
+> #### ->compare()
+ Alos Like **[same()](#-same)**
+ ```php
+ echo Str("poor")
+->compare("soor")
+```
+```html
+-3
+```
