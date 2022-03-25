@@ -860,7 +860,7 @@ Str($pages)
      return Str($a)->replace('php',"html")->is;
  })  
  ->echo();
-     ```
+```
 ```html
 [main.php],[cart.php],[join.php]
 
