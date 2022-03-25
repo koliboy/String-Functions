@@ -377,7 +377,7 @@ distance is:3
 
 > #### ->leftTrim()
 > #### ->rightTrim()
-
+Alos Like **[trim()](#-trim)** **[trimB()](#-trimB)**
 ```php
 Str("Left green red blue Right")
 ->echo()
