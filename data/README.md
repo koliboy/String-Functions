@@ -1180,3 +1180,30 @@ echo Str($p)
    ```html
 2
 ```
+
+> #### ->substring()
+ Alos Like **[slice()](#-slice)**
+ ```php
+ $p = 'full is to Sub String';
+
+ Str($p)
+ ->echo("<div>","</div>")     
+  ->substring(11)
+  ->echo("<div>","</div>");    
+ 
+   
+  
+
+ Str($p)
+    ->substring(11,3)
+  ->echo() ;
+  ```
+  ```html
+full is to Sub String
+
+Sub String
+
+Sub
+```
+  
+ 
