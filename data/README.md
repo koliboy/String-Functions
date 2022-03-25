@@ -375,21 +375,23 @@ echo "distance is:".Str("ok poor")
 distance is:3
 ```
 
-> #### ->ltrim()
+> #### ->leftTrim()
+> #### ->rightTrim()
 
 ```php
-Str("very large text")
- ->echo("","<p> _______ </p>")
-->ltrim('very')
-->echo();
+Str("Left green red blue Right")
+->echo()
+->leftTrim("Left")
+->echo("<div>","</div>")
+-> rightTrim("Right")
+-> echo();
 
 ```
 **output**
 ```html
-very large text
-_______
-
-large text
+Left green red blue Right
+green red blue Right
+green red blue
 ```
 
 > #### ->md5()
