@@ -1083,3 +1083,66 @@ Other text
 _____this orginal html_________
 
 ``` 
+> #### ->reverse()
+```php
+Str("dlrow olleh")
+->echo("<div>","</div>")
+  ->reverse()
+  ->echo();
+```
+```html
+dlrow olleh
+hello world
+
+```
+> #### ->subCompare()
+>  Alos Like **[substring()](#-substring)** 
+```php
+echo Str("Going")->subCompare("in", 1, 2);
+echo Str("abcde")->subCompare("bc", 1, 3);
+echo Str("abcde")->subCompare("BC", 1, 3,true);
+```
+```html
+6
+1
+1
+
+```
+
+> #### ->subCompare()
+>  Alos Like **[substring()](#-substring)** 
+```php
+echo Str("Going")->subCompare("in", 1, 2);
+echo Str("abcde")->subCompare("bc", 1, 3);
+echo Str("abcde")->subCompare("BC", 1, 3,true);
+```
+```html
+6
+1
+1
+
+```
+> #### ->wordwrap()
+``php
+ Str(" hello good  night !!")
+ -> wordwrap(5,"<div>massege </div>")
+  ->echo("<div>","</div>");
+  
+    Str(" hello good  night !!")
+ -> wordwrap(Str(" hello good  night !!")->length-1,"<div>massege </div>")
+  ->echo();
+  ```
+ ```html
+ hello
+massege
+good
+massege
+night
+massege
+!!
+
+hello good night
+massege
+!!
+
+```
