@@ -1,6 +1,8 @@
 
 ### Sytax...
 ```php
+include "Str/str.php";
+
 $str = new Str("hello ");
 $str->echo(); //hello
 
