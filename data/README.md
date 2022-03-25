@@ -696,6 +696,31 @@ echo Str("this  wirhting by  koli")->includes('koli');
 0
 ```
 
+> #### ->slice()
+ Alos Like **[split()](#-split)**  **[splitB()](#-splitB)**
+```php
+$slice = "hello world";
+Str("hello world")
+->slice(6)
+->echo()
+
+->call_back($slice)
+->slice(0,5)
+->echo("<div>","</div>") 
+ 
+ 
+->call_back($slice)
+->slice(1)
+->echo("<div>","</div>")
+
+->call_back($slice)
+->slice(3,-3)
+->echo("<div>","</div>");
+```
+ **output**
+ ```html
+```
+
 > #### ->same()
  Alos Like **[compare()](#-compare)**
 ```php
@@ -703,4 +728,8 @@ echo Str("this  wirhting by  koli")->includes('koli');
 ```
  **output**
  ```html
+world
+hello
+ello world
+lo wo
 ```
