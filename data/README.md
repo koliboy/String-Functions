@@ -972,3 +972,27 @@ koliboy
 @koliboy))
 +_@koliboy))+_+
 ```
+
+
+> #### ->repeat()
+```php
+Str("hello|")->repeat(2)->echo("<div>","</div>")
+->repeat(2)->echo();
+ ```
+ ```html
+hello|hello|
+hello|hello|hello|hello|
+```
+
+> #### ->shuffle()
+```php
+Str("koli Boy")
+ -> shuffle()
+ ->echo("<div>","</div>")
+-> shuffle()
+ ->echo("<div>","</div>");
+ ```
+ ```html
+l oBkioy
+oiBolky
+```
