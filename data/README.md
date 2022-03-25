@@ -10,7 +10,7 @@ echo Str("green red")->is; //green red
 ```
 
 ## prototypes 
-**> #### ->length** 
+> #### **->length** 
 ```php
 echo Str("koli") -> length; // 4
 ```
