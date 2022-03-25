@@ -330,25 +330,31 @@ After
 > #### ->firstLower()
 > #### ->firstUpper()
 > #### ->title()
+> #### ->toLowerCase()
+> #### ->toUpperCase()
 text Style
 ```php
+
 Str("Green yello Pink red") 
- ->firstLower()->echo("<p> __firstLower__ </p>")
- ->firstUpper()->echo("<p> __firstUpper__ </p>")
- ->title()->echo("<p> __All firstUpper__ </p>");
+ ->firstLower()->echo("<p> <div>__firstLower__ </div>","</p>")
+ ->firstUpper()->echo("<p> <div>__firstUpper__ </div>","</p>")
+ ->title()->echo("<p> <div>__All firstUpper__ </div>","</p>")
+ ->toLowerCase()->echo("<p> <div>__All Lower__ </div>","</p>")
+ ->toUpperCase()->echo("<p> <div>__All Upper__ </div>","</p>");
 
 ```
 **output**
 ```html
 __firstLower__
-
 green yello Pink red
 __firstUpper__
-
 Green yello Pink red
 __All firstUpper__
-
 Green Yello Pink Red
+__All Lower__
+green yello pink red
+__All Upper__
+GREEN YELLO PINK RED
 ```
 
 > #### ->distance()
