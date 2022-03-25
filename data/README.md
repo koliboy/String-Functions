@@ -684,6 +684,18 @@ Str("%s green red %s total colors names: is :%d")
 %s green red %s total colors names: is :%d
 gray green red blue total colors names: is :4
 ```
+> #### -> includes()
+
+```php
+echo Str("this  wirhting by  koli")->includes('koli');
+ echo Str("this  wirhting by  koli")->includes('gurjar')
+```
+ **output**
+ ```html
+1
+0
+```
+
 > #### ->same()
  Alos Like **[compare()](#-compare)**
 ```php
