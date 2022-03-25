@@ -1274,3 +1274,26 @@ echo Str($pages)->search("cart.php");
 cart.php,join.html
 
 ```
+> #### ->cslice() 
+Alos Like **[slice()](#-slice)**
+
+```php
+$pages = "home.html,cart.php,join.html,error.php";
+
+
+
+ Str($pages)->cslice("home.html","join.html")
+  ->echo("<div>","</div>");
+ 
+ 
+ Str($pages)->cslice("join.html","home.html")
+  ->echo()
+  ```
+  
+  ```html
+home.html,cart.php,
+
+
+home.html,cart.php,join.html,error.php
+
+```
