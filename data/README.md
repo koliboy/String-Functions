@@ -621,7 +621,7 @@ foo \\ sss \(new\)
 ```
 
 > #### ->same()
- Alos Like **[compare()](#-compare)**
+ Alos Like **[compare()](#-compare)** **[coll()](#-coll)**
 ```php
 $string2 = "hello world";
 
@@ -1037,11 +1037,20 @@ G|u|r|j|a|r|,|,|,|,|,|,|,|,|,|,|,|,|B|o|y|
 ```
 
 > #### ->compare()
- Alos Like **[same()](#-same)**
+ Alos Like **[same()](#-same)** **[coll()](#-coll)**
  ```php
  echo Str("poor")
 ->compare("soor")
 ```
 ```html
 -3
+```
+
+> #### ->coll()
+ Alos Like **[same()](#-same)** **[compare()](#-compare)**
+ ```php
+ echo Str("poor")->coll("poord");
+```
+```html
+-100
 ```
