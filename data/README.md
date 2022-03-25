@@ -1241,10 +1241,13 @@ $matchAll  = Str($pages)->matchAll("[a-z]+(\.html)");
 var_dump($match);
 
 var_dump($matchAll);
+var_dump($matchAll[0])
 ```
 
 ```html
 array(2) { [0]=> string(8) "cart.php" [1]=> string(4) ".php" }
 
 array(2) { [0]=> array(2) { [0]=> string(9) "home.html" [1]=> string(9) "join.html" } [1]=> array(2) { [0]=> string(5) ".html" [1]=> string(5) ".html" } }
+
+array(2) { [0]=> string(9) "home.html" [1]=> string(9) "join.html" }
 ```
