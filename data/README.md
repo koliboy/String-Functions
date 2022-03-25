@@ -896,3 +896,31 @@ My  favrouts colores red blue green
 
 My  favrouts colores gray white  black
 ```  
+```php
+$pages = "home.html,car.php,join.php";
+$cup_pages = []; 
+
+Str($pages)
+->echo("<div>","</div>")
+->replaceEach('([a-z]+(\.(html|php)))',function($page,$i){
+    global $cup_pages;
+    
+    $cup_pages[$i] = $page;
+    
+    if($page == "home.html") 
+    return "home.php";
+    else if($i == 2)
+    return "error.php";
+    else return $page;
+})
+
+->echo("<p>","</p>");     
+ 
+ var_dump($cup_pages);
+ ```
+ ```html
+home.html,car.php,join.php
+home.php,car.php,error.php
+
+array(3) { [0]=> string(9) "home.html" [1]=> string(7) "car.php" [2]=> string(8) "join.php" }
+```
