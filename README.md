@@ -146,7 +146,7 @@ public function   distance
 ($string2?String, $insertion_cost = 1;?Number, $replacement_cost = 1;?Number, $deletion_cost = 1;?Number)?  Number
 
 
-public function    ltrim
+public function    leftTrim
 ($characters = "\n\r\t\v\x00";?String)?  call_back()
 
 
@@ -191,7 +191,7 @@ public function    quotedP_encode
 public function    quotemeta
 ()?  call_back()
 
-public function    rTrim
+public function    rightTrim
 ($characters = "\n\r\t\v\x00";?String)?  call_back()
 
 
