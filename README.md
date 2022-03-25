@@ -55,7 +55,7 @@ public function call_back
 ($string?String)? new This
 
 public function indexOf
-()? call_back()
+($find?String)? Number
 
 
 public function forEach
