@@ -789,7 +789,7 @@ call to function
 - ("functionName")  true
 - (arrowFunction) false
 - ("arrowFunction") false
-- **regular expression**
+regular expression
 - ("regular expression") true
 - ("/regular expression/") false sytax error
 ```php
