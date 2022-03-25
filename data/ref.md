@@ -11,6 +11,8 @@ Str("KOLi")->echo(); //koli
 echo Str("green red")->is; //green red
 ```
 > ### In This Page
+- **[length](#-length)**
+- **[is](#-length)**
 - **[call_back()](#-call_back)**
 - **[forEach()](#-forEach)**
 - **[filter()](#-filter)**
