@@ -692,8 +692,8 @@ echo Str("this  wirhting by  koli")->includes('koli');
 ```
  **output**
  ```html
-1
-0
+bool(true)
+bool(false)
 ```
 
 > #### ->slice()
