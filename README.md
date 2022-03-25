@@ -67,6 +67,10 @@ public function cslashes
 ($chr?String)? call_back()
 
 
+public function join
+($join = null;?String)? call_back()
+
+
 public function slashes
 ()? call_back()
 
