@@ -948,3 +948,27 @@ Total pages 3
 under function 3
 home.html,car.php,join.php
 ```
+> #### ->padStart()
+> #### ->padEnd()
+> #### ->padBoth()
+```php
+$text = "koliboy";
+ 
+ Str($text)
+ ->echo('<p>','</p>')
+ 
+ ->padStart(8,"@")
+ 
+ ->echo("<div>","</div>")
+ ->padEnd(10,")")
+ ->echo("<div>","</div>")
+ ->padBoth(15,"+_") 
+ ->echo("<div>","</div>");
+ ```
+ ```html
+koliboy
+
+@koliboy
+@koliboy))
++_@koliboy))+_+
+```
