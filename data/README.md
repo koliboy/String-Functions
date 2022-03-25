@@ -827,12 +827,42 @@ $pregarp = "ajay Father's name \n?";
  ```html
 ajay Father's name Rohit Gurjar
 ```
-> #### ->same()
+> #### ->replaceAll()
  Alos Like **[compare()](#-compare)**
 ```php
-
+$pages = "home.html,cart.html,join.html";
+ 
+Str($pages)
+->echoB($pages)
+  ->replaceAll('(.html)',".php")
+   ->echo("<div>","</div>")
+   ->replace('home',"main")
+   ->print("<div>","</div>")
+   
+   ->replaceAll('[a-z]+(\.php)',function($get){
+       return '['.$get.']';
+   })
+   ->echo();
 ```
- **output**
- ```html
 
+ ```html
+home.html,cart.html,join.html
+home.php,cart.php,join.php
+main.php,cart.php,join.php
+[main.php],[cart.php],[join.php]
+```
+```php
+$pages = "[main.php],[cart.php],[join.php]";
+ 
+Str($pages)
+->echo("<p>","</p>")
+ ->replaceAll('([a-z]+)',function($a){
+     return Str($a)->replace('php',"html")->is;
+ })  
+ ->echo();
+     ```
+```html
+[main.php],[cart.php],[join.php]
+
+[main.html],[cart.html],[join.html]
 ```
