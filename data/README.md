@@ -944,7 +944,7 @@ Str($pages)->findCount('([a-z]+(\.(html|php)))',function($count){
  ?>
  ```
  ```html
-Total pages🔢
+Total pages 3
 under function 3
 home.html,car.php,join.php
 ```
