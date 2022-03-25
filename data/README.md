@@ -769,6 +769,7 @@ bool(false) bool(true)
 
 > #### ->replace()
  Alos Like **[replaceAll()](#-replaceAll)** **[replaceEach()](#-replaceEach)** **[match()](#-match)**
+ **[replaceLast()](#-replaceLast)**
  **[matchAll()](#-matchAll)** **[findCount()](#-findCount)** **[filter()](#-filter)** **[split()](#-split)**
 ```php
 Str("red blue green  apple")
@@ -827,8 +828,29 @@ $pregarp = "ajay Father's name \n?";
  ```html
 ajay Father's name Rohit Gurjar
 ```
+> #### ->replaceLast()
+Alos Like **[replace()](#-replace)** **[replaceEach()](#-replaceEach)** **[match()](#-match)**
+ 
+ **[matchAll()](#-matchAll)** **[findCount()](#-findCount)** **[filter()](#-filter)** **[split()](#-split)**
+ #### see-more
+  [call to function](#call-to-function),[regular expression](#regular-expression)
+
+```php
+$pages = "home.html,car.php,join.php";
+
+Str($pages)
+->echo("<div>","</div>") 
+->replaceLast("php","html")
+->echo();
+```
+```html
+home.html,car.php,join.php
+
+home.html,car.php,join.html
+```
 > #### ->replaceAll()
  Alos Like **[replace()](#-replace)** **[replaceEach()](#-replaceEach)** **[match()](#-match)**
+ **[replaceLast()](#-replaceLast)**
  **[matchAll()](#-matchAll)** **[findCount()](#-findCount)** **[filter()](#-filter)** **[split()](#-split)**
  #### see-more
   [call to function](#call-to-function),[regular expression](#regular-expression)
@@ -871,7 +893,7 @@ Str($pages)
 ```
 
 > #### ->replaceEach()
- Alos Like **[replaceAll()](#-replaceAll)** **[replace()](#-replace)**  **[replaceEach()](#-replaceEach)** **[match()](#-match)**
+ Alos Like **[replaceAll()](#-replaceAll)** **[replace()](#-replace)**  **[replaceEach()](#-replaceEach)** **[match()](#-match)** **[replaceLast()](#-replaceLast)**
  **[matchAll()](#-matchAll)** **[findCount()](#-findCount)** **[filter()](#-filter)** **[split()](#-split)**
  #### see-more
   [call to function](#call-to-function),[regular expression](#regular-expression)
