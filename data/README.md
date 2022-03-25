@@ -925,7 +925,7 @@ home.php,car.php,error.php
 array(3) { [0]=> string(9) "home.html" [1]=> string(7) "car.php" [2]=> string(8) "join.php" }
 ```
 > #### ->findCount()
- Alos Like **[replaceAll()](#-replaceAll)**
+ Alos Like **[wordCount()](#-wordCount)**
  #### see-more
   [call to function](#call-to-function),[regular expression](#regular-expression)
   ```php
