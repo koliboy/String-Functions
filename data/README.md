@@ -28,7 +28,7 @@ $str->echo()
 
   ->call_back("New  String")->echo()
 ```
-**output**
+
 ```html
 back to back String
 <p> Addon More  String</p>
@@ -45,7 +45,7 @@ $str->forEach(
     },"argument"
 );
 ```
-**output**
+
 ```html
 char is :H index Of 0 argument
 char is :e index Of 1 argument
@@ -73,7 +73,7 @@ forEach(
      echo "<div>$chr And  $somting</div>";   
     });
 ```
-**output**
+
 ```html
 h And Somting
 e And Somting
@@ -102,7 +102,7 @@ $str->forEach(call); //true
 $str->forEach('call_2'); //true you can call function name  by string name
 $str->forEach($arrow_call); //false
 ```
-**output**
+
 ```html
 h And Somting
 e And Somting
@@ -126,7 +126,7 @@ $str->filter(good)
 ->echo()
 ->echo('<div>F',"</div>"); 
 ```
-**output**
+
 ```html
 oo
 food
@@ -140,7 +140,7 @@ $str  = Str('hello');
 $str->cslashes('l')
 ->echo()
 ```
-**output**
+
 ```html
 he\l\lo
 ```
@@ -150,7 +150,7 @@ he\l\lo
 Str('he\llo')->slashes()
 ->echo()
 ```
-**output**
+
 ```html
 he\\llo
 ```
@@ -164,7 +164,7 @@ Str('hello')
 ->bin2()
 ->echo('<div>',"</div>")
 ```
-**output**
+
 ```html
 68656c6c6f
 hello
@@ -175,7 +175,7 @@ hello
 Str('hello')->chunk(2,"()")
 ->echo()
 ```
-**output**
+
 ```html
 he()ll()o()
 ```
@@ -186,7 +186,7 @@ he()ll()o()
 Str('he/rr/rrr=?555')->udecode()
 ->echo()->uencode()->echo("\n")
 ```
-**output**
+
 ```html
 ��=$�u� (%/22/222=?4` `
 ```
@@ -222,7 +222,7 @@ Str("12345678")
  ->sha1(true)
  ->echo("<div> binary   </div>")
 ```
-**output**
+
 ```html
 
 __crypt__
@@ -260,7 +260,7 @@ Str("orginal text")
  
 ->echo("<p>","<p>");
 ```
-**output**
+
 ```html
 orginal text
 <div> {orginal text} </div>
@@ -282,7 +282,7 @@ print_r($cup);
 
 print_r($min_cup);
 ```
-**output**
+
 ```html
 Array ( [0] => A [1] => b [2] => c )
 Array ( [0] => A [1] => b,c )
@@ -302,7 +302,7 @@ arrayTo($cup)
 ->echoB("\n :Right");
 
 ```
-**output**
+
 ```html
 Text Prosing ?String :Right
 ```
@@ -319,7 +319,7 @@ Str("I'll \"walk\" the <b>dog</b> now")
 ->htmlEncode()->echo();
 
 ```
-**output**
+
 ```html
 I'll &quot;walk&quot; the &lt;b&gt;dog&lt;/b&gt; now
 
@@ -338,7 +338,7 @@ Str("<a href='home'>Hello</a>")
  ->echo('\n')
 
 ```
-**output**
+
 ```html
 &lt;a href=&#039;home&#039;&gt;Hello&lt;/a&gt;
 After
@@ -362,7 +362,7 @@ Str("Green yello Pink red")
  ->toUpperCase()->echo("<p> <div>__All Upper__ </div>","</p>");
 
 ```
-**output**
+
 ```html
 __sample__
 Green yello Pink red
@@ -388,7 +388,7 @@ echo "distance is:".Str("ok poor")
  //\s == \s
 
 ```
-**output**
+
 ```html
 distance is:3
 ```
@@ -410,7 +410,7 @@ Str("Left green red blue Right")
  ->trim("Left")->trim("Right")
 ->echo("<div>trim</div>");
 ```
-**output**
+
 ```html
 Left green red blue Right
 green red blue Right
@@ -430,7 +430,7 @@ Str("1.First Chapter \n  2.Secount Chapter \n 3.Thired Chapter")
 ->lineBreaks()
 ->echo()
 ```
-**output**
+
 ```html
  1.First Chapter 2.Secount Chapter 3.Thired Chapter
 ___results____
@@ -453,7 +453,7 @@ Str("orgnal text")
 ->echoB("<div>or  mores ..</div>")
 ->echo("<b>END</b>");
 ```
-**output**
+
 ```html
 <p>Other text echo,</p>
 
@@ -506,7 +506,7 @@ string(40) "Today Is 25 march nex day is 26 march "
 echo Str("A")
 ->aByte();
 ```
-**output**
+
 ```html
 65
 ```
@@ -522,7 +522,7 @@ Str(" i hode  yor  esae learn this  content")
 ->right(']</p>')
 ->dump();
 ```
-**output**
+
 ```html
 string(47) "
 [ i hode yor esae learn this content]
@@ -542,7 +542,7 @@ Str("name=koli&age=21")
 
 var_dump($output)
 ```
-**output**
+
 ```html
 <p>name=koli&age=21</p>
 
@@ -564,7 +564,7 @@ Str("hello pink red")
 ->echo()
 ->print("<p>welcome","</p>");  
 ```
-**output**
+
 ```html
 <p>hello pink red </p>
 
@@ -595,7 +595,7 @@ Str("String")
  ->both("(",")")
  ->echo();  
 ```
-**output**
+
 ```html
 <span>Left Content conact </span> String
 <span>Left Content conact </span> String <span>Right Content conact </span>
@@ -615,7 +615,7 @@ Str("String")
 ->echo();
  ?>
  ```
- **output**
+
  ```html
 foo \\ sss \(new\)
 ```
@@ -642,7 +642,7 @@ $obj1 = Str("hello world")
  
  echo "$obj1->value And  percent:$obj1->percent%";
 ```
- **output**
+ 
  ```html
 hello borther
 8 And percent:66.666666666667%
@@ -657,7 +657,7 @@ Str(" Ajay gurjar")
  ->  soundex()
  ->echo("<div>Calculate the soundex key:","</div>")
 ```
- **output**
+
  ```html
 Calculate the soundex key:A226
 ```
@@ -679,7 +679,7 @@ Str("%s green red %s total colors names: is :%d")
 ->formate("gray","blue",4)
 ->echo()  
 ```
- **output**
+
  ```html
 %s green red %s total colors names: is :%d
 gray green red blue total colors names: is :4
@@ -690,7 +690,7 @@ gray green red blue total colors names: is :4
 echo Str("this  wirhting by  koli")->includes('koli');
  echo Str("this  wirhting by  koli")->includes('gurjar')
 ```
- **output**
+
  ```html
 bool(true)
 bool(false)
@@ -717,7 +717,7 @@ Str("hello world")
 ->slice(3,-3)
 ->echo("<div>","</div>");
 ```
- **output**
+ 
  ```html
 world
 hello
@@ -735,7 +735,7 @@ var_dump( Str("food good")
 ->wordCount()
 );
 ```
- **output**
+ 
  ```html
 array(2) { [0]=> string(4) "food" [1]=> string(4) "good" }
 int(2)
@@ -761,7 +761,7 @@ var_dump(
     ->startWith('handel')
     );
 ```
- **output**
+ 
  ```html
 bool(true) bool(false)
 bool(false) bool(true)
@@ -779,7 +779,7 @@ Str("red blue green  apple")
  ->replace('apple',"")
  ->echo()
 ```
- **output**
+
  ```html
 red blue green apple
 red blue green
