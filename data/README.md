@@ -1206,4 +1206,18 @@ Sub String
 Sub
 ```
   
- 
+> #### ->concat() 
+```php
+$c = "c";
+$d = "d";
+Str("a")
+->concat("b")
+->echo("<div>","</div>")
+->concat($c,$d,"e","f")
+->echo();
+```
+```html
+ab
+
+abcdef
+```
