@@ -767,6 +767,65 @@ bool(true) bool(false)
 bool(false) bool(true)
 ```
 
+> #### ->replace()
+ Alos Like **[compare()](#-compare)**
+```php
+Str("red blue green  apple")
+->echo("<div>","</div>")
+ 
+ //->replace('/apple/') sytax error
+ 
+ ->replace('apple',"")
+ ->echo()
+```
+ **output**
+ ```html
+red blue green apple
+red blue green
+```
+call to function 
+- (functionName) true
+- ("functionName")  true
+- (arrowFunction) false
+- ("arrowFunction") false
+- **regular expression**
+- ("regular expression") true
+- ("/regular expression/") false sytax error
+```php
+$pregarp = " green red blue 583";
+ 
+ Str($pregarp)
+ ->replace("[0-9]+","gray")
+ ->echo();
+ 
+ 
+ $pregarp2 = " green red blue";
+ 
+ function call($find){
+     return "[".$find."]";
+ }
+ 
+ Str($pregarp2)
+ ->replace("green",call)
+ ->echo("<div>","</div>")
+ ```
+ ```html
+green red blue gray
+[green] red blue
+```
+```php
+$pregarp = "ajay Father's name \n?";
+ 
+  function rohit (){
+    return "Rohit Gurjar";
+  }
+ Str($pregarp)
+ ->replace('\n(\?)',"Rohit")
+ ->echo();
+ ```
+ ```html
+ajay Father's name Rohit Gurjar
+```
 > #### ->same()
  Alos Like **[compare()](#-compare)**
 ```php
