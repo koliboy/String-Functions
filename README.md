@@ -219,7 +219,7 @@ public function    includes
 public function    slice
 ($start?Number,$end?Number)?  call_back()
 
-public function    endsWith
+public function    endWith
 ($needle?String)? Boolean
 
 
