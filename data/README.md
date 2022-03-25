@@ -1096,7 +1096,7 @@ hello world
 
 ```
 > #### ->subCompare()
->  Alos Like **[substring()](#-substring)** 
+  Alos Like **[substring()](#-substring)** 
 ```php
 echo Str("Going")->subCompare("in", 1, 2);
 echo Str("abcde")->subCompare("bc", 1, 3);
@@ -1109,19 +1109,7 @@ echo Str("abcde")->subCompare("BC", 1, 3,true);
 
 ```
 
-> #### ->subCompare()
->  Alos Like **[substring()](#-substring)** 
-```php
-echo Str("Going")->subCompare("in", 1, 2);
-echo Str("abcde")->subCompare("bc", 1, 3);
-echo Str("abcde")->subCompare("BC", 1, 3,true);
-```
-```html
-6
-1
-1
 
-```
 > #### ->wordwrap()
 ```php
  Str(" hello good  night !!")
@@ -1143,4 +1131,18 @@ massege
 
 hello good night massege !!
 
+```
+
+> #### ->charAt()
+ Alos Like **[indexOf()](#-indexOf)**
+```php
+Str("ABCDEF")
+   ->echo("<div>","</div>")
+   ->charAt(2)
+   ->echo();
+   ```
+   ```html
+ABCDEF
+
+C
 ```
