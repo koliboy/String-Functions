@@ -828,7 +828,8 @@ $pregarp = "ajay Father's name \n?";
 ajay Father's name Rohit Gurjar
 ```
 > #### ->replaceAll()
- Alos Like **[compare()](#-compare)**
+ Alos Like **[replace()](#-replace)** **[replaceEach()](#-replaceEach)** **[match()](#-match)**
+ **[matchAll()](#-matchAll)** **[findCount()](#-findCount)** **[filter()](#-filter)** **[split()](#-split)**
 ```php
 $pages = "home.html,cart.html,join.html";
  
