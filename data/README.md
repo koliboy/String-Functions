@@ -35,6 +35,27 @@ back to back String
 New  String
 ```
 
+> #### ->indexOf()
+   also red call back function same [charAt](#-charAt)
+```php
+$foo = " foo doo";
+
+echo Str($foo)
+ ->indexOf("d");
+ 
+Str($foo)
+   ->slice(
+       Str($foo)->indexOf("o"))
+
+->echo("<div>","</div>");
+
+```
+```html
+5
+
+oo doo
+
+```
 > #### ->forEach()
 ```php
 $str  = Str('Hello gurjar');
