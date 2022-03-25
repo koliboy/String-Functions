@@ -924,3 +924,27 @@ home.php,car.php,error.php
 
 array(3) { [0]=> string(9) "home.html" [1]=> string(7) "car.php" [2]=> string(8) "join.php" }
 ```
+> #### ->findCount()
+ Alos Like **[replaceAll()](#-replaceAll)**
+ #### see-more
+  [call to function](#call-to-function),[regular expression](#regular-expression)
+  ```php
+  $pages = "home.html,car.php,join.php";
+
+echo "Total pages:". Str($pages)->findCount('([a-z]+(\.(html|php)))'),"\n";
+
+
+
+Str($pages)->findCount('([a-z]+(\.(html|php)))',function($count){
+    echo "under   function ".$count;
+})
+->echo("<p>","</p>"); //call Again  when use  Function
+
+! Str($pages)->findCount('([a-z]+(\.(html|php)))')->echo() //sytax error
+ ?>
+ ```
+ ```html
+Total pages🔢
+under function 3
+home.html,car.php,join.php
+```
