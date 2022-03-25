@@ -1168,3 +1168,15 @@ ABCDEF
 
 C
 ```
+
+> #### ->subCount()
+
+```php
+$p = 'This is a test';
+
+echo Str($p)
+ ->subCount("is");
+   ```
+   ```html
+2
+```
