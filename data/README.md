@@ -56,7 +56,7 @@ echo Str("green red")->is; //green red
 - **[includes()](#-includes)**
 - **[slice()](#-slice)**
 - **[endWith()](#-endWith)**
-- **[ startWith()](#- startWith)**
+- **[ startWith()](#-startWith)**
 - **[replaceAll()](#-replaceAll)**
 - **[replace()](#-replace)**
 - **[replaceLast()](#-replaceLast)**
