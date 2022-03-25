@@ -204,26 +204,38 @@ Str('he/rr/rrr=?555')->udecode()
 > #### ->chars()
  red more [count_chars()](https://www.php.net/manual/en/function.count-chars.php)
  
- > #### ->c32()
-```php
-echo Str("hello c32")
-->c32();
-```
-**output**
-```html
-1743027734
-```
+ 
 
 
  > #### ->crypt()
+ > #### ->c32()
+ > #### ->md5() 
 ```php
 Str("12345678")
+->echo("<div> __crypt__ </div>")
 ->crypt("password")
-    ->echo();
+    ->echo(""<div>","</div>")
+    
+   ->call_back("hello c32")
+    ->echo("<div> __c32__ </div>)
+ ->c32("<div>","</div>")
+ 
+ ->call_back("very Hard  password")
+ ->echo("<div> __md5__ </div>")
+->md5()
+->echo("<div>","</div>");
 ```
 **output**
 ```html
+ __crypt__
+  12345678
 paagWgB/nq8gk
+__c32__
+hello c32
+1743027734
+__md5__
+very Hard  password
+a4782ce51ccb1e4edb8035613aa47135
 ```
 
 
@@ -401,21 +413,7 @@ trim
 green red blue
 ```
 
-> #### ->md5()
 
-```php
-Str("very Hard  password")
- ->echo("","<p> _______ </p>")
-->md5()
-->echo();
-```
-**output**
-```html
-very Hard password
-_______
-
-a4782ce51ccb1e4edb8035613aa47135
-```
 
 
 > #### ->lineBreaks()
