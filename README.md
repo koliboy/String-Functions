@@ -54,6 +54,9 @@ public function  construct
 public function call_back
 ($string?String)? new This
 
+public function indexOf
+()? call_back()
+
 
 public function forEach
 ($call?Function,$arg...?Arguments)? void
