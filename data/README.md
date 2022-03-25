@@ -665,6 +665,14 @@ Calculate the soundex key:A226
 > #### ->formate()
  Alos Like **[replace()](#-replace)** **[replaceEach()](#-replaceEach)**  **[replaceAll()](#-replaceAll)**
  **[match()](#-match)**  **[matchAll()](#-matchAll)**
+ sytax
+ - string
+  [%s]
+ - int
+ [d, u, c, o, x, X, b]
+ - float
+[e, E, f, F, g, G, h, H]
+
 ```php
 Str("%s green red %s total colors names: is :%d")
 ->echo("<div>","</div>")
