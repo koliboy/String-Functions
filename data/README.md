@@ -377,7 +377,8 @@ distance is:3
 
 > #### ->leftTrim()
 > #### ->rightTrim()
-Alos Like **[trim()](#-trim)** **[trimB()](#-trimB)**
+> #### ->trim()
+
 ```php
 Str("Left green red blue Right")
 ->echo()
@@ -386,11 +387,17 @@ Str("Left green red blue Right")
 -> rightTrim("Right")
 -> echo();
 
+Str("Left green red blue Right")
+ 
+ ->trim("Left")->trim("Right")
+->echo("<div>trim</div>");
 ```
 **output**
 ```html
 Left green red blue Right
 green red blue Right
+green red blue
+trim
 green red blue
 ```
 
