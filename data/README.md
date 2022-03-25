@@ -620,6 +620,7 @@ foo \\ sss \(new\)
 ```
 
 > #### ->same()
+ Alos Like **[compare()](#-compare)**
 ```php
 $string2 = "hello world";
 
@@ -646,4 +647,39 @@ hello borther
 8 And percent:66.666666666667%
 hello world
 11 And percent:100%
+```
+
+> #### ->soundex()
+soundex — Calculate the soundex key of a string
+```php
+Str(" Ajay gurjar")
+ ->  soundex()
+ ->echo("<div>Calculate the soundex key:","</div>")
+```
+ **output**
+ ```html
+Calculate the soundex key:A226
+```
+
+> #### ->formate()
+ Alos Like **[replace()](#-replace)** **[replaceEach()](#-replaceEach)**  **[replaceAll()](#-replaceAll)**
+ **[match()](#-match)**  **[matchAll()](#-matchAll)**
+```php
+Str("%s green red %s total colors names: is :%d")
+->echo("<div>","</div>")
+->formate("gray","blue",4)
+->echo()  
+```
+ **output**
+ ```html
+%s green red %s total colors names: is :%d
+gray green red blue total colors names: is :4
+```
+> #### ->same()
+ Alos Like **[compare()](#-compare)**
+```php
+
+```
+ **output**
+ ```html
 ```
