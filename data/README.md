@@ -996,3 +996,42 @@ Str("koli Boy")
 l oBkioy
 oiBolky
 ```
+
+
+> #### ->split()
+> #### ->splitB()
+```php
+$pages = "home.html,car.php,join.php   mount  cut";
+
+
+Str($pages)->
+   echo("<div>","</div>")->
+   split('([a-z]+(\.(html|php)))')->join()
+   ->echo("<div> error.html");
+   
+   $data = Str($pages)->
+   
+   splitB('([a-z]+(\.(html|php)))');
+  
+var_dump($data);
+ ```
+ ```html
+home.html,car.php,join.php mount cut
+error.html mount cut
+
+array(4) { [0]=> string(0) "" [1]=> string(1) "," [2]=> string(1) "," [3]=> string(13) " mount cut" } // splitB
+```
+> #### ->join()
+```php
+$foo = "Gurjar,,,,,,,,,,,,Boy";
+Str($foo)->join()
+->echo("<div>","</div>");
+
+Str($foo)->join("|")
+->echo("<div>","</div>");
+```
+```html
+GurjarBoy
+
+G|u|r|j|a|r|,|,|,|,|,|,|,|,|,|,|,|,|B|o|y|
+```
