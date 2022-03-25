@@ -719,6 +719,26 @@ Str("hello world")
 ```
  **output**
  ```html
+world
+hello
+ello world
+lo wo
+```
+
+> #### ->wordCount()
+ Alos Like **[findCount()](#-findCount)**
+```php
+var_dump( Str("food good")
+->wordCount(1)
+);
+var_dump( Str("food good")
+->wordCount()
+);
+```
+ **output**
+ ```html
+array(2) { [0]=> string(4) "food" [1]=> string(4) "good" }
+int(2)
 ```
 
 > #### ->same()
@@ -728,8 +748,5 @@ Str("hello world")
 ```
  **output**
  ```html
-world
-hello
-ello world
-lo wo
+
 ```
