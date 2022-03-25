@@ -156,22 +156,11 @@ he\\llo
 ```
 
 > #### ->hex2()
-```php
-Str('hello')->hex2()
-->echo()
-->bin2()
-->echo('<div>',"</div>")
-```
-**output**
-```html
-68656c6c6f
-hello
-```
-
 > #### ->bin2()
 ```php
-Str('hello')->hex2()
-->echo()
+Str('hello')
+->hex2()
+->echo("<div>","</div>")
 ->bin2()
 ->echo('<div>',"</div>")
 ```
