@@ -768,7 +768,8 @@ bool(false) bool(true)
 ```
 
 > #### ->replace()
- Alos Like **[compare()](#-compare)**
+ Alos Like **[replaceAll()](#-replaceAll)** **[replaceEach()](#-replaceEach)** **[match()](#-match)**
+ **[matchAll()](#-matchAll)** **[findCount()](#-findCount)** **[filter()](#-filter)** **[split()](#-split)**
 ```php
 Str("red blue green  apple")
 ->echo("<div>","</div>")
