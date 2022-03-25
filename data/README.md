@@ -1054,3 +1054,32 @@ G|u|r|j|a|r|,|,|,|,|,|,|,|,|,|,|,|,|B|o|y|
 ```html
 -100
 ```
+
+> #### ->tags()
+
+ ```php
+ $html = '<p>Test paragraph.</p><div> Div Content </div> <a href="#fragment">Other text</a>';
+
+Str($html)
+ ->tags("<p><a>") 
+  ->echo()
+  ->echoB("<div>_____^ Allow  Tags  p and a not  Allow div_________<div>");
+ 
+ 
+ Str($html)
+ ->echo()
+ ->echoB("<div>_____this orginal html_________<div>");
+```
+```html
+Test paragraph.
+
+Div Content Other text
+_____^ Allow Tags p and a not Allow div_________
+Test paragraph.
+
+
+Div Content
+Other text
+_____this orginal html_________
+
+```
