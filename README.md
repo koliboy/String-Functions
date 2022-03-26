@@ -1,4 +1,4 @@
-# v1 Str
+# v1 Str 4 <= php.v
 # Str("My Somentig String") 
 php String Objects Chains like length,forEach,filter,replace,repalcAll much More....
 ###Job
